@@ -1,0 +1,46 @@
+1) Print “Hello World. I am here.”
+
+2) Print the below pattern
+Hello
+World.
+I
+am
+here.
+
+3) Print *****
+
+4) Print the below pattern
+*****
+*****
+*****
+
+5) Print the below pattern
+*****
+*
+*
+*
+*****
+
+6) Add two numbers 10+20
+-Multiply three numbers 10, 20,30.
+-Subtract two numbers 40-20.
+
+7) Find the sum and product of 20, 30, 50.
+
+8) Divide two numbers 25/10.
+
+9) Find the remainder when 438 is divided by 9.
+
+10) Find the remainder when 4596 is divided by 10.
+
+11) Store the value 100 in x variable of int data type and then print x.
+
+12) Store the value 235 in y variable of int data type and then print y+10
+
+13) Store values 165, 84 in x and y variable of int data type and print x+y, x-y, x*y, x/y.
+
+14) Store values 20, 30, 40 in the variable x, y, z each of int data type and print x+y-z.
+
+15) Remove the last digit of a given number. Say 45983
+
+16) Find the last digit of a given number. Say 45983

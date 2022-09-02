@@ -1,0 +1,9 @@
+1. IDE
+
+2. Operators +, -, *, /, =
+
+3. System.out.println(), System.out.print()
+
+4. int data type
+
+5. Variables
