@@ -1,0 +1,23 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Programs file Input to be provided :-
+(in the same order)
+(copy from the next line)
+1
+2
+23.4
+true
+10
+20
+98.6
+2345
+4567
+112
+18
+36
+72
+2
+3
+3
+2
+

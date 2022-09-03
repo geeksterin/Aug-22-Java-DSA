@@ -1,0 +1,60 @@
+1) Input two integers (store them in an int variable) and find their sum and difference.
+
+2) Take two integer inputs and store them in variables x and y where x is length and y
+is breadth
+a. Calculate Area of Rectangle
+b. Find perimeter of rectangle
+
+3) Write a program to convert Fahrenheit into Celsius. Take Fahrenheit value in a
+double variable and print the answer in Celsius.
+
+4) Take two integers as inputs and add the last digits of those numbers and then print
+the final output. Eg x=2345 and y=4567, the last digit of 2345 i.e 5 and last digit of
+4567 i.e 7, the result should then be 5+7 which gives 12.
+
+5) Find the answer of the following expressions
+a. int x=2+3
+b. int x =3+8-29
+c. int x =4 + 5.2 - 8.3 + 9.2 //Tell them about the error of lossy conversion
+d. double x =4.1 + 8.9 + 3.5
+e. int x= 4 * 3 / 8 + 2.5 * 2 //Tell them about the error of lossy conversion
+f. double x=22 + 4 * 2
+g. double x=8 / 5 + 13 / 2
+h. double x=8.0/5 + 13/2
+i. double x=8.0/5 + 13.0/2
+j. int x= 392 / 10 % 10 / 2
+k. int x= 39%2*3
+
+6) Find what would get printed for the following
+a. System.out.println(22 + 4 * 2)
+b. System.out.println(8 / 5 + 13 / 2)
+c. System.out.println(8.0/5 + 13/2)
+d. System.out.println(8.0/5 + 13.0/2)
+
+7) Store these expressions inside a Boolean variable ans. Print their outputs true or
+false accordingly
+a. Eg. boolean ans = 2+3>5, then System.out.println(ans)
+b. 40+5 > 72
+c. 78+93 >= 100
+d. 40+3 < 50
+e. 90+91 <= 181
+f. 5==5
+g. 15==20
+h. 15==3*5
+i. 15==3*6
+j. 3!=3
+k. 4!=10
+l. 3*4 + 8*9 == 45
+m. 2*3 + 4*5 != 5*4 + 7/5
+n. 13/2==13.0/2
+o. 15.0/2 + 7 == 14.5
+
+8) Take an input x and check if the entered number is greater than 100 or not. Print
+true or false.
+
+9) Take three inputs and check if the sum of these is smaller than 150 or not. Print
+true or false.
+
+10) Take four inputs x, y, z, w and check if x*y is equal to z*w or not. Print true or false.
+
+11) Take an input and check if the number is even or not. Print true or false

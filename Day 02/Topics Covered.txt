@@ -1,0 +1,9 @@
+1. Scanner
+
+2. Variables
+
+3. Int and double data types
+
+4. Boolean data type
+
+5. Comparison Operators, Equal to operator (==) and Not Equal to operator(!=)
