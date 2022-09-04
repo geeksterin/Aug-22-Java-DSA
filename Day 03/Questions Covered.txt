@@ -1,0 +1,16 @@
+Store the result of the following expressions in “ans” variable of type boolean
+and print the final result.
+
+1. boolean ans= 3>2 && 14>3
+2. boolean ans = 40>3 && 40 > 50
+3. boolean ans = 40>=40 || 50>=2*25
+4. boolean ans = (2*3==4 && 6*4==9) || (4>2)
+5. boolean ans = (4>5) && (3>5 && 80==2*40)
+6. boolean ans = (20*5==100 || 10==10) && (30*2==60 || 40>30)
+7. boolean ans = !(30>20)
+8. boolean ans = !(30==30)
+9. boolean ans = !(30≥20 || 40≥10)
+10. boolean ans = !( (20*4 + 40 ≥100 || 20==10) && (3*2<=60 || 4≥30) )
+11. boolean ans = !( 20%3==2 )
+12. boolean ans = ( !(40==40) && 80>36)
+13. boolean ans = ( !(50>20) || 90>2*45) && ( 30!=2*15)

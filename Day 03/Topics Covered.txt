@@ -1,0 +1,7 @@
+1. And Operator
+
+2. Or Operator
+
+3. Not Operator
+
+4. Adding Comments in the code
