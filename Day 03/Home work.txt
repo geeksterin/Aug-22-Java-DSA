@@ -16,3 +16,5 @@ the final result.
 13. boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40)
 14. boolean ans = ( !(90>=40) && !(80>36) )
 15. boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15)
+
+Quiz :- https://forms.gle/BpDa941x8QmRnt9D7
