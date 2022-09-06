@@ -1,0 +1,18 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/adult-or-not-1
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/grade-the-student-1-1
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/high-sum-or-low-sum
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/gkstr06-greater-number
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/gkstr04-even-or-odd
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/tax-or-not
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/grace-marks-1
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-age-bracket
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-final-salary-given-age

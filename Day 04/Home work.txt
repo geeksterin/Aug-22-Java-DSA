@@ -1,0 +1,24 @@
+1. Take two numbers as integer input and print the larger number as the output in the
+integer format.
+
+2. Take an integer input and print Even if the integer is even else print Odd.
+
+3. Take income of a person as input from the user, print “No tax to be paid” if income
+is less than 500,000 and print “Tax to be paid” if income is greater than or equal to
+500,000.
+
+4. A teacher adds 4 marks as grace marks only if the marks of the student is below 33.
+Print the final marks of student given by the teacher.
+
+5. Take age as input from the user.
+    a. Print “Super Senior Citizen” if age is equal to or above 70
+    b. Print “Senior Citizen” if age is below 70 but equal to or above 59.
+    c. Print “Adult” if age is below 59 but equal to or above 18.
+    d. Print “Underage” is age is below 18 but equal to or above 1.
+    e. Print “New Born” if none of the above conditions follow.
+
+6. The government adds money into the account of a person based on his age. Take
+age and salary of the person as inputs. And print his final income.
+    a. if age is above 60, Rs. 1000 is added into the account
+    b. if age is above 40 and less than or equal to 60, Rs. 500 is added.
+    c. No money is added if the age is less than or equal to 40.
