@@ -1,0 +1,15 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/shop-discount
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-bonus
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/rich-adult-young
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-final-z
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/even-odd-1000
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-z-and-x-divisible-by-3

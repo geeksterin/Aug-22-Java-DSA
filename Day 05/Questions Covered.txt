@@ -1,0 +1,35 @@
+1) A shop will give a discount of 10% on the total cost if the cost of the quantity
+purchased is more than 1000.
+    a. Ask user for quantity
+    b. Suppose, one unit will cost 100.
+    c. Judge and print total cost for the user.
+
+2) The bonus in a company is given by Bonus= Salary * (5 / 100). A company decided
+to give a bonus of 5% to employees if his/her year of service is more than 5 years.
+Ask user for their salary and year of service and print the net bonus amount.
+
+
+3) Take the age and salary of a person as an integer input,
+    If the age is above 40 then
+        a. If the salary is greater than or equal to 30,000 then print “You are rich and
+        adult”
+        b. Else print “You are an adult”
+    Else if salary is less than or equal to 40
+        a. If the salary is greater than or equal to 12,000, then print “You are rich and
+        young”
+        b. Else print “You are young”
+
+4) Take input three numbers x, y, z
+    Then if the value of x is greater than or equal to 20,
+        a. If the value of y is greater than or equal to 100 then add 100 to the
+        value of z.
+        b. If the value of y is less than 100 and greater than or equal to 50, then
+        add 50 to the value of z.
+        c. Else add 10 to the value of z.
+    Else if the value of x is less than 20,
+        a. If the value of y is greater than or equal to 100 then add 3 to the
+        value of z.
+        b. If the value of y is less than 100 and greater than or equal to 50, then
+        add 2 to the value of z.
+        c. Else add 1 to the value of z.
+Print the value of z in the end.
