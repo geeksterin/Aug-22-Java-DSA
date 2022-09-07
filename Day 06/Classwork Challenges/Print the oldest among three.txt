@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scn=new Scanner(System.in);
+        
+        int a=scn.nextInt();
+        int b=scn.nextInt();
+        int c=scn.nextInt();
+        
+        if(a>b){  
+            if(a>c){
+                System.out.println("A");
+            }
+            else{
+                System.out.println("C");
+            }
+        }
+        else{  
+            if(b>c){
+                System.out.println("B");
+            }
+            else{
+                System.out.println("C");
+            }
+        }
+    }
+}

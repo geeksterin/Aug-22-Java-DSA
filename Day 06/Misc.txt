@@ -1,0 +1,17 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-oldest-among-three
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/tell-about-x-y
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-final-incremented-salary
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/top-management-or-not
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-final-z-given-xyz
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/marks-and-rank
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-above-given-ab
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/height-weight-and-age
