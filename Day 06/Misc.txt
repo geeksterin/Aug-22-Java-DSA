@@ -10,7 +10,6 @@ https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/t
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-final-incremented-salary
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/top-management-or-not
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-final-z-given-xyz
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/marks-and-rank
 
 Home work questions :-
 https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-above-given-ab

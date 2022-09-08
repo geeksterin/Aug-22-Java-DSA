@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        int age=scn.nextInt();
+        int salary=scn.nextInt();
+        
+        if(age>40){ // age is >40
+            if(salary>=30000){
+                System.out.println("You are rich and adult");  // age>40 && salary >=300000
+            }else {
+                System.out.println("You are an adult"); // age>40 && salary<30000
+            }
+            
+        }
+        else{ // age is <=40
+            if(salary>=12000){
+                System.out.println("You are rich and young"); // age<=40 && salary>=12000
+            }else{
+                System.out.println("You are young"); // age<=40 && salary<12000
+            }            
+        }
+        
+    }
+}

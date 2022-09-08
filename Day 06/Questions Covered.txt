@@ -1,0 +1,30 @@
+1. Take in two inputs x and y from the user, and then
+    a. If the value of x is greater than or equal to 59 and y is greater than or equal
+       to 10, then print “X is greater than or equal to 59 and y is greater than or equal to 10”
+    b. If the value of x is greater than or equal to 50, and y is less than 10, then
+    print “X is greater than or equal to 50 and y is less than 10”
+    c. Else print “None of the condition matches”
+
+2. Take in three inputs age, salary, experience, then
+    a. If age is greater than 60 and salary is greater than 20,000 and experience is
+       greater than 20 years, then add 5000 to the salary.
+    b. If age is greater than 40 and salary is greater than 15,000 and experience is
+       greater than 10 years, then add 2000 to the salary.
+    c. If age is greater than 30 and salary is greater than 10,000 and experience is
+       greater than 5 years, then add 1000 to the salary.
+    d. Otherwise add 500 to the salary.
+In the end Print the final salary.
+
+3. Take in experience, salary and rank as integer inputs, then
+    a. If experience is greater than or equal to 10 years or the salary is greater
+       than or equal to 50,000 or rank is greater than or equal to 10, then print “You are in top management”
+    b. Else print “You are not in top management”
+
+4. Take in x, y, z as integer inputs from the user,
+    a. If x is greater than or equal to 20 and z is less than 100 then add 200 to the
+       value of z.
+    b. If x is greater than or equal to 10, or y is less than 50 then add 100 to the value of z.
+Print the final value of z in the end.
+
+5. Take input of the age of 3 people A, B, C and determine oldest amongst them and
+print his name.
