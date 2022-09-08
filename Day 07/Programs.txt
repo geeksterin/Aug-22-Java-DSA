@@ -1,0 +1,35 @@
+public class Main {
+    
+    public static void main(String[] args) {
+        
+        //Character Data type
+        char ch = 'B';
+        System.out.println(ch);
+        
+        //Character.getNumericValue()
+        System.out.println(Character.getNumericValue(ch));
+        
+        Scanner sc = new Scanner(System.in);
+        
+        /*
+        next() can read the input only till the space. It can't read two words separated by space. 
+        Also, next() places the cursor in the same line after reading the input.
+
+        nextLine() reads input including space between the words (that is, it reads till the end of line \n). 
+        Once the input is read, nextLine() positions the cursor in the next line. 
+         */
+        
+        //Taking in String Data Type as input
+        String s = sc.nextLine();
+        String r = sc.nextLine();
+        System.out.println(s);
+        System.out.println(r);
+        
+        //charAt -> accessing specific index character in string
+        System.out.println(s.charAt(1));
+        
+        //str.length() -> Length of string
+        System.out.println(s.length());
+        
+    }
+}

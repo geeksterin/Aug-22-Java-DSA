@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scn=new Scanner(System.in);
+        char ch=scn.next().charAt(0);
+        
+        if(ch>='a' && ch<='z'){
+            ch=(char)(ch-32);
+        }
+        else {
+            ch=(char)(ch+32);
+        }
+        
+        System.out.println(ch);
+    }
+}
