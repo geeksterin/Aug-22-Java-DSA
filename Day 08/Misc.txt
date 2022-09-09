@@ -1,0 +1,17 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/jump-three-character-to-right-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/marks-and-rank
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/small-capital-or-digit
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/add-if-a-digit
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/toggle-the-character
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-character-at-3rd-index
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-two-digit-number
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/toggle-and-2-jumps-left

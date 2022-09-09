@@ -1,0 +1,11 @@
+1. Character Data Type
+
+2. Manipulating Character Data-type
+
+3. Character.getNumericValue()
+
+4. charAt()
+
+5. Taking in String Data Type as input.
+
+6. str.length()
