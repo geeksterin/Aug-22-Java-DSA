@@ -1,0 +1,14 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/male-or-female-1
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/concatenate-two-strings-2-1
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/string-concatenate-2
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/concatenate-3-strings
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/basic-calculator-9-1
