@@ -1,0 +1,13 @@
+1. Take in a character as a character input from the user, and print “You are a male” if
+‘M’ or ‘m’ is taken as input. And print “You are a female” if ‘F’ or ‘f’ is taken as
+input. And if some other character is taken as an input, then print “Type again”.
+
+2. You will be given two strings as input in two separate lines, you need to simply
+concatenate them and print the resulting string.
+
+3. Given 2 strings, a and b, return a string of the form short+long+short, with the
+shorter string on the outside and the longer string on the inside. The strings will not be
+the same length, but they may be empty (length 0).
+For eg. Example 1 - comboString("Hello", "hi") → "hiHellohi"
+Example 2 - comboString("hi", "Hello") → "hiHellohi"
+Example 3 - comboString("aaa", "b") → "baaab"

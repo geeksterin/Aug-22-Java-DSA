@@ -30,6 +30,16 @@ public class Main {
         
         //str.length() -> Length of string
         System.out.println(s.length());
+
+        //Jump a character
+        char yy = 'f';
+        char zz = (char)(yy+5);
+        System.out.println(zz);
+        
+        //ASCII values
+        char cha = 'Z';
+        int ascii = cha;
+        System.out.println(ascii);
         
     }
 }
