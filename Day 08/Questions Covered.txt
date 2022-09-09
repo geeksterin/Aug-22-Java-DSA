@@ -1,0 +1,40 @@
+1. Take in marks and rank of a student as an integer input, and follow these
+conditions below in the stepwise manner, which is if the condition given before fails
+only then move on to the next condition, otherwise don’t
+    a. If marks are below 20 or rank is above 100, print “Needs improvement”
+    b. Or If marks are below 40 or rank is above 80, print “Concentrate”
+    c. Or If marks are below 60 or rank is above 120, print “Needs to focus”
+    d. Or if marks are above 100 or rank is below 10, print “Very good”
+    e. If none of the above condition follows, print “Bright Student”
+
+2. Take in a character as an input and manipulate it as given under
+    i. Condition 1: If the entered character is a small-case character, then
+        A. If the character is from character ‘a’ and till the character ‘w’, both
+        ‘a’ and ‘w’ included, then
+        Jump three times and print the resulting character as explained in
+        the example below,
+        For eg. If ‘a’ is given then print ‘d’,
+        If ‘b’ is given then print the character ‘e’,
+        If ‘c’ is given then print the character ‘f’,
+        If ‘w’ is given then print the character ‘z’
+        B. Else print the string “Can’t jump”
+    ii. Condition 2: If the entered character is not a small case character, then print the
+    string “Not a small case”
+
+3. Take in a character as an input and then
+    a. Print “Small case” if it is a small case character.
+    b. Print “Capital case” if it is a capital case character.
+    c. Print “Digit” if it is a digit
+    d. Print “None” if none of the above conditions follow.
+
+4. Take in a character as an input from the user
+    a. If the entered character is a digit, then add 100 to the value of the digit
+    entered and print the final answer.
+    [ Use the in-built function Character.getNumericValue ]
+    b. Else print “This is not a digit”
+
+5. Take in a character as an input from the user
+    a. If the entered character is a small-case character, then convert it into the
+    corresponding uppercase character and print it.
+    b. If the entered character is an upper-case character, then convert it into the
+    corresponding lowercase character and print it.
