@@ -5,6 +5,25 @@ Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
 Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
 
 Class work questions :-
-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr09-print-range
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-0-to-n
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-table-of-4
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr11-multiple-of-7
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-x-to-n
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr15-print-even
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-2916-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-3-7-11-15-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-1-2
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-0
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/reverse-5-table
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-x
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-odd-from-n-to-1
 
 Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-numbers-6-2
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-multiples-of-9
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-multiples-of-11-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-series-4
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-series-5
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-reverse-5
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-multiples-of-8

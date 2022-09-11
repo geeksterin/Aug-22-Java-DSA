@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        //Used first, then incremented -> post
+        int i=5;
+        System.out.println(i++);
+        System.out.println(i);
+        
+        //Incremented first, then used -> pre
+        int j=5;
+        System.out.println(++j);
+        System.out.println(j);
+
+    }
+}

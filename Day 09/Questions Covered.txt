@@ -1,0 +1,25 @@
+1. WAP to print numbers from 1 to n where n is taken as input from the user.
+
+2. WAP to print numbers from x to n where n is taken as input from the user.
+
+3. Print first 10 multiples of 4.
+
+4. Print first n multiples of 7.
+
+5. Print 2,9,16,23,29,35…. till n numbers using i=i+7, where n is taken as input from the user.
+
+6. Print 3, 7, 11, 15, 19, 23… till n numbers using i=i+4, where n is taken as input from the user.
+
+7. WAP to print numbers from n to 1 where n is taken as input from the user.
+
+8. WAP to print numbers from n to 0 where n is taken as input from the user.
+
+9. WAP to print numbers from n to x where n is taken as input from the user.
+
+10. Print reverse table of 5.
+
+11. Print odd numbers starting from n to 1, where n is taken as input from the user.
+
+12. WAP to print numbers from 0 to n where n is taken as input from the user.
+
+13. Print even numbers starting from 0 to n, where n is taken as input from the user.

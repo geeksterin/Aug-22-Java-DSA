@@ -1,0 +1,3 @@
+1. For loop incremental type with comparison operators with plus based incrementing
+
+2. For loop decrement type with comparison operators with minus based decrementing
