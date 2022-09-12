@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int ascii = 97;
+        ascii = 0;
+        System.out.println((char)(ascii+97));
+        
+        char ch = 'a';
+        ch = (char)(ch+1);
+        System.out.println(ch);
+        
+        ch = 97;
+        System.out.println(ch);
+
+        
+    }
+}
