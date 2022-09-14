@@ -1,0 +1,27 @@
+1. Same as Q1 to Q4 of for loop Day 1.
+
+    1. WAP to print numbers from 1 to n where n is taken as input from the user.
+    2. WAP to print numbers from x to n where n is taken as input from the user.
+    3. Print first 10 multiples of 4.
+    4. Print first n multiples of 7.
+
+
+2. Same as Q6-Q10 of for loop Day 1.
+
+    6. Print 3, 7, 11, 15, 19, 23… till n numbers using i=i+4, where n is taken as input from the user.
+    7. WAP to print numbers from n to 1 where n is taken as input from the user.
+    8. WAP to print numbers from n to 0 where n is taken as input from the user.
+    9. WAP to print numbers from n to x where n is taken as input from the user.
+    10. Print reverse table of 5
+
+3. Print all even numbers from 1 to n (1 and n both included)
+
+4. Same as Q1 and Q4 of for loop day 2
+
+    1. Print n, n-3, n-6, n-9, n-12….. Print till the value to be printed is greater than 0.
+    2. Print n, n-k, n-2k,n-3k,n-4k,n-5k,n-6k,n-7k,n-8k,n-9k,n-10k. n and k will be given as input.
+       Print till the time the printed value is greater than equal to zero.
+    3. You will be given n, k and last as integer inputs. Print n, n-k, n-2k, n-3k…. till the time the
+       value printed is greater than last.
+    4. Print a-z (using two methods)
+       Using for(int i=0;i<26;i++) and using for(char ch=’a’;ch≤’z’;ch++)
