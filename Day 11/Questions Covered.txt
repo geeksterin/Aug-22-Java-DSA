@@ -1,22 +1,19 @@
-1. Print n, n-3, n-6, n-9, n-12….. Print till the value to be printed is greater than 0.
+1. You will be given a string of length n, you have to print its alternate characters in
+   separate lines starting from the 0th index till the last index.
 
-2. Print n, n-k, n-2k,n-3k,n-4k,n-5k,n-6k,n-7k,n-8k,n-9k,n-10k. n and k will be given as input.
-   Print till the time the printed value is greater than equal to zero.
+2. You will be given a string and you have to reverse the string and print it.
 
-3. You will be given n, k and last as integer inputs. Print n, n-k, n-2k, n-3k…. 
-   till the time the value printed is greater than last.
+3. Take n as an integer input and print nth power of 2.
 
-4. Print a-z (using two methods)
-   Using for(int i=0;i<26;i++) and using for(char ch=’a’;ch≤’z’;ch++)
+4. Print the powers of 2 from 1 to n.
 
-5. Print a, B, c, D, e, F.. uptil 26 characters.
+5. Given n, Keep on dividing the n by 3, and print the resultant value of n each time, 
+   till the value of n is greater than 0.
 
-6. Print a, c, e, g, i…. alphabets using loops, where the last alphabet printed should be less than z.
-   Using for(int i=0;i<26;i++) and using for(char ch=’a’;ch≤’z’;ch=(char)(ch=ch+2))
+6. Find the number of multiples of 3 and number of multiples of 5 from 1-n.
 
-7. Print z,y,x,w,v,u,t,s,r,q,p,…..a
+7. Running sum using loop.
 
-8. Take n as an integer input. After this you will be given n numbers as integer inputs and
-   you have to print each time if the number is even or odd. Print “even” if the number is
-   even and print “odd” if the number is odd.
-   Suggestions for the instructor:
+8. Print nth fibonacci number
+
+9. Print first n fibonacci numbers.
