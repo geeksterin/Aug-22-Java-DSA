@@ -1,0 +1,27 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-0-to-n
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-table-of-4
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr11-multiple-of-7
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-x-to-n
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-1-2
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-0
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/reverse-5-table
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-to-x
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-odd-from-n-to-1
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-3-n-6-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-k-n-2k-n-3k-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-k-n-2k-n-3k-till-l
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-a-to-z
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/printing-5-to-nwhile-loop
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-in-rangex-and-y
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-4132231-n
