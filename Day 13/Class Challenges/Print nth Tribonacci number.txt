@@ -4,21 +4,32 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
         Scanner scn=new Scanner(System.in);
         int n=scn.nextInt();
         
-        int a=0;
+        int a=1;
         int b=1;
-        int c=1;
+        int c=2;
         
-        for(int i=1;i<=n;i++){
-            int d=a+b+c;
-            a=b;
-            b=c;
-            c=d;
+        if(n==0)
+          System.out.print(0);  
+        else if(n==1)
+            System.out.print(a);
+        else if(n==2)
+           System.out.print(b);
+        else if(n==3)
+           System.out.print(c);
+        else{
+            int d=-1;
+            for(int i=4;i<=n;i++)
+            {
+                d=a+b+c;
+                a=b;
+                b=c;
+                c=d;
+            }
+            System.out.print(d);
         }
-        
-        System.out.println(a);
     }
 }
