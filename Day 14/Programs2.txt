@@ -1,0 +1,28 @@
+public class Main {
+    
+    static int sum(int a,int b){
+        int ans = a+b;
+        return ans;
+    }
+    
+    static void friends(){
+        System.out.println("Akarsh");
+        System.out.println("Aishwarya");
+        System.out.println("Abhay");
+    }
+    
+    public static void main(String[] args) {
+        friends();
+        
+        //task 1
+        
+        friends();
+        
+        //task2 
+        
+        friends();
+        
+        int add = sum(5,11);
+        System.out.println(add);
+    }
+}

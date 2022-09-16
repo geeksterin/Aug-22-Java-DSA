@@ -1,0 +1,88 @@
+public class Main {
+    
+    static int factorial(int num){
+        int fact = 1;
+        for(int i=1;i<=num;i++){
+            fact = fact*i;
+        }
+        return fact;
+    }
+    
+    public static void main(String[] args) {
+        
+//         //Without functions
+        
+//         //Factorial
+//         int number = 5;
+//         int fact = 1;
+//         for(int i=1;i<=number;i++){
+//             fact = fact*i;
+//         }
+//         System.out.println(fact);
+        
+//         //nCr -> n!/((n-r)!*r!)
+//         int n = 5;
+//         int r = 3;
+//         int ans = 1;
+//         for(int i=1;i<=n;i++){
+//             ans = ans*i;
+//         }
+//         int num = ans;
+        
+//         System.out.println(num);
+        
+//         // den =(n-r)!*r!
+        
+//         int den1 = (n-r);
+//         int den1Ans = 1;
+//         for(int i=1;i<=den1;i++){
+//             den1Ans = den1Ans*i;
+//         }
+        
+//         int den2 = r;
+//         int den2Ans = 1;
+//         for(int i=1;i<=den2;i++){
+//             den2Ans = den2Ans*i;
+//         }
+        
+//         int den = den1Ans*den2Ans;
+       
+//         System.out.println(den);
+        
+//         int ncr = num/den;
+        
+//         System.out.println(ncr);
+        
+        //With functions
+        
+        //Factorial
+        System.out.println(factorial(5));
+        
+        //nCr -> n!/((n-r)!*r!)
+        int n = 5;
+        int r = 3;
+        
+        int num = factorial(n);
+        
+        System.out.println(num);
+        
+        // den =(n-r)!*r!
+        
+        int den1 = (n-r);
+        int den1Ans = factorial(den1);
+        
+        int den2 = r;
+        int den2Ans = factorial(den2);
+        
+        int den = den1Ans*den2Ans;
+       
+        System.out.println(den);
+        
+        int ncr = num/den;
+        
+        System.out.println(ncr);
+        
+        System.out.println(factorial(n)/(factorial(n-r)*factorial(r)));
+        
+    }
+}
