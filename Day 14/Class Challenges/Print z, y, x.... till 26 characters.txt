@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            
+        // for(int i=122;i>=97;i--){
+        //     System.out.println((char)i);
+        // }
+        
+        // for(int i=25;i>=0;i--){
+        //     System.out.println((char)(i+97));
+        // }
+        
+        // for(char ch='z';ch>='a';ch--){
+        //     System.out.println(ch);
+        // }
+        
+        char ch='z';
+        while(ch>='a'){
+            System.out.println(ch);
+            ch--;
+        }
+    }
+}
