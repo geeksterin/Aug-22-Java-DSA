@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        
+        // for(int i=n;i>0;i=i-3){
+        //     System.out.println(i);
+        // }
+        
+        int i=n;
+        while(i>0){
+            System.out.println(i);
+            i=i-3;
+        }
+  
+    }
+}
