@@ -1,0 +1,22 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-3-n-6-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-k-n-2k-n-3k-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-n-n-k-n-2k-n-3k-till-l
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-a-to-z
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-a-b-c-d-e-f-g-26-characters
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-a-c-e-till-the-characters-are-less-than-z
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-z-y-x-till-26-characters
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-even-or-odd-from-a-list-of-integers
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-series-6
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-series-7
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-alphabets-2
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-the-alphabet-series
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-the-series-of-character
