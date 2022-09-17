@@ -9,5 +9,10 @@ https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/p
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-a-c-e-g-i-k-m-o-q-s
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/steps-till-n-greater-than-0
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/nth-power-of-10
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/nth-fibonacci-number-7
 
 Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-till-n-for-this-series-511172329-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-from-n-to-3-using-while-loop
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-n-to-x
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/reverse-table-of-6

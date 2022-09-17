@@ -1,1 +1,1 @@
-: While loop continues
+Simple while loop continues in contrast with for loop

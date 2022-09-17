@@ -1,0 +1,13 @@
+1. Print nth fibonacci number
+
+2. Print a, C, e, G, i, K, m, O, q, S ….. till the last character is less than ‘z’ or ‘Z’
+accordingly whether ‘z’ or ‘Z’ is a part of the series or not.
+
+3. Given a number n, and you have to do either of these steps.
+If the number is even, subtract 1 from n and if the number is odd subtract 3 from n.
+Keep on performing these steps till the time the value of n is greater than 0.
+In the end print the total number of steps performed.
+
+4. Print the nth power of 10 using a while loop.
+
+5. Given n, print nth Tribonacci number.
