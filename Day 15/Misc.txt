@@ -1,0 +1,15 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-all-digits-from-end
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr46-number-of-digits
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-total-steps-when-n2
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-steps-and-update-maximum
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/multiply-x-by-5
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/increment-by-6
