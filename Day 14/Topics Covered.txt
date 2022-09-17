@@ -1,1 +1,4 @@
-: While loop continues
+1. While loop continues
+2. Introduction to the concept of functions
+3. Syntax of functions and 
+4. Using single parameter inside a function

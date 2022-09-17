@@ -1,0 +1,11 @@
+1. Given n, find the factorial of n. (without functions)
+
+2. Given n and r, find the value of ncr. (without functions)
+
+3. Printing friends name function
+
+4. Sum of two numbers function
+
+5. Given n, find the factorial of n. (with functions)
+
+6. Given n and r, find the value of ncr. (with functions)

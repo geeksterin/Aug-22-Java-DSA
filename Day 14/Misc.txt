@@ -11,3 +11,7 @@ https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/s
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/nth-power-of-10
 
 Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-odd-from-n-to-1
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-the-series-3
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-n-n-3k-n-6k-n-12k-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/find-permutation-1
