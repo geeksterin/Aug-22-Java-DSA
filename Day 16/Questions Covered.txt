@@ -1,0 +1,13 @@
+1. You are given a number and you have to print its digits from the end to the starting
+   and each digit should be printed in a separate line. For eg. given 93786 so you have
+   to print 6,8,7,3,9 each digit in a separate line.
+
+2. Given a number in an integer data-type, count the total digits of the number
+
+3. Given a number n, keep on dividing the n by 2, till the time n is greater than equal to 1. 
+   In the end print the total number of steps.
+
+4. Take n as input from the user. Then you will be given a list of positive integers, each
+   time you find a new maximum you have to increment the steps by 3.
+   Take steps as 0 initially and maximum value as -100 in the starting.
+   In the end print the number of steps performed.

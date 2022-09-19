@@ -1,0 +1,3 @@
+1. Nested for loop
+
+2. How to reuse a code block again and again using functions.
