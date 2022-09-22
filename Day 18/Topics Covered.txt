@@ -1,0 +1,2 @@
+1. For loops
+2. If-else conditions inside the for loop

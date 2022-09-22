@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        //Print indexing
+        for(int row=0;row<3;row++){
+            for(int col=0;col<3;col++){
+                System.out.print("* ");
+                //System.out.print(row+""+col+" ");
+            }
+            System.out.println();
+            
+        }
+    }
+}

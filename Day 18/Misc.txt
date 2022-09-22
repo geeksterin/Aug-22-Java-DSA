@@ -1,0 +1,23 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr20-pattern-5
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/pattern-7-print-a-hollow-m-by-n-star-rectangle-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/pattern-8-print-a-hollow-square-without-top
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/pattern-9-ladder-with-top-and-bottom
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr25-pattern-7-pyramid
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/gkstr30-pattern-12-diamond
+
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-pattern-40-2
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-the-pattern-32
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-inverted-triangle
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-big-ladder
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-v-pattern
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-dumroo-pattern
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-the-number-pattern-2
