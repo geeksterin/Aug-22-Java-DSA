@@ -1,11 +1,16 @@
 1. Write a function that takes two integers as parameters and prints the sum of these
 two numbers.
+
 2. Write a function that takes two integers as parameters and prints the product of
 two numbers.
+
 3. Write a function that prints the area as a double output and perimeter as a double
 output of a circle if its double radius is given as a parameter.
+
 4. Take two integer inputs x and y. Swap their values and print the value of x and y.
+
 5. Take three integer inputs x, y and z. Assign the value of x to y, y to z, z to x.
 Then print the value of x, y, z in separate lines.
+
 6. Take two integers x and y as integer inputs. Write a function that returns the gcd of
 two numbers. Then you have to print that gcd.
