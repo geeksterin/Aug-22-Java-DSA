@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); 
+        
+        int nsp = n-1; //no of spaces
+        int nst = 1; //no of stars
+        
+        for(int i=1;i<=n;i++){
+            
+            //spaces
+            for(int j=1;j<=nsp;j++){
+                System.out.print(" ");
+            }
+            
+            //stars
+            for(int j=1;j<=nst;j++){
+                System.out.print("*");
+            }
+            nst=nst+2;
+            nsp--;
+            
+            System.out.println();
+        }
+        
+        //System.out.println(nsp+" "+nst);
+        
+        nsp=nsp+2; //no of spaces
+        nst=nst-4; //no of stars
+        
+        for(int i=1;i<=n-1;i++){
+            
+            //spaces
+            for(int j=1;j<=nsp;j++){
+                System.out.print(" ");
+            }
+            
+            //stars
+            for(int j=1;j<=nst;j++){
+                System.out.print("*");
+            }
+            nst=nst-2;
+            nsp++;
+            
+            System.out.println();
+        }
+    }
+}
