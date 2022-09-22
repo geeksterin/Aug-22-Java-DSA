@@ -1,0 +1,2 @@
+1. Functions
+2. Using multiple parameters inside a function

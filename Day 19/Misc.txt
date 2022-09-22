@@ -1,0 +1,19 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-sum-using-a-function
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-product-of-the-two-numbers-using-function
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/area-and-perimeter-as-double-using-function
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/swap-x-and-y
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/swap-x-y-z
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-gcd-3-4
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/check-odd
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/print-all-even-number
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/calculate-area-3
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/calculate-lcm
