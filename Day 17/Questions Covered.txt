@@ -1,0 +1,8 @@
+1. Print the pattern below using
+a. nested for loop
+b. for loop and inside it using the function starPrinter(n).
+    *
+   **
+  ***
+ ****
+*****
