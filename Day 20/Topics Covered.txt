@@ -1,0 +1,5 @@
+1. Count Digits in a number
+
+2. Reverse the digits of a number
+
+3. Rotate digits of a number

@@ -1,0 +1,29 @@
+3. Given two digits x and y as integer inputs. Form a number xy from it.
+
+4. Given a three-digit positive number. Print its digits one by one starting from the
+digit at one’s place to the digit at hundred’s place in a separate line.
+
+5. Given three digits (digit can be zero as well) x, y and z. Print the number xyz
+from these digits. For eg 3, 8, 4 is given, then you have to print the number 384
+from it.
+
+6. Given a three-digit positive number. Reverse its digits.
+
+7. You will be given a number greater than or equal to zero. Print the count of
+digits in the first line and then you have to print its digits from the digit at one’s
+place till the digit at the largest place value such that each digit should be
+printed in a separate line.
+
+8. Take n as an integer input. Then you will be given n digits as integer inputs, and
+you have to form a number from it and print that number.
+For eg. if you are given 3, 4, 7, 9, 1, then you have to print the number 34791.
+
+9. Take a number n greater than or equal to zero as an integer input. Then you will
+be given n digits as integer inputs and you have to form a number from it.
+Print the number formed.
+Then you have to reverse the digits of this number. And then print the final
+reversed number in the next line.
+
+10. First take a number as an integer input. Write a function to check if the given
+number is an Armstrong number or not and return true or false accordingly.
+
