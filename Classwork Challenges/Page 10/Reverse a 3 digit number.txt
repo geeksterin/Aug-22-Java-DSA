@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int lastDigit;
+        int ans = 0;
+        
+        lastDigit = n%10;
+        n = n/10;
+        ans = ans*10+lastDigit;
+        
+        lastDigit = n%10;
+        n = n/10;
+        ans = ans*10+lastDigit;
+        
+        lastDigit = n%10;
+        n = n/10;
+        ans = ans*10+lastDigit;
+        
+        System.out.println(ans);
+
+    }
+}

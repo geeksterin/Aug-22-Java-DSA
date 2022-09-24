@@ -1,0 +1,5 @@
+1. Factors of a number
+
+2. Prime Factors
+
+3. Prime number or not

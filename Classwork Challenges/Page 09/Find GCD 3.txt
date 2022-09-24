@@ -1,0 +1,79 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static int gcd(int x, int y){
+        
+        int min = y;
+        if(y>x)
+            min = x;
+        
+        int gcdVal = 1;
+        for(int i=2;i<=min;i++){
+            if(x%i==0 && y%i==0)
+                gcdVal = i;
+        }
+        return gcdVal;
+        
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        
+        //System.out.println(gcd(x,y));
+        
+        int min = y;
+        if(y>x)
+            min = x;
+        
+        int gcdVal = 1;
+        for(int i=2;i<=min;i++){
+            if(x%i==0 && y%i==0)
+                gcdVal = i;
+        }
+        System.out.println(gcdVal);
+    }
+}import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static int gcd(int x, int y){
+        
+        int min = y;
+        if(y>x)
+            min = x;
+        
+        int gcdVal = 1;
+        for(int i=2;i<=min;i++){
+            if(x%i==0 && y%i==0)
+                gcdVal = i;
+        }
+        return gcdVal;
+        
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        
+        //System.out.println(gcd(x,y));
+        
+        int min = y;
+        if(y>x)
+            min = x;
+        
+        int gcdVal = 1;
+        for(int i=2;i<=min;i++){
+            if(x%i==0 && y%i==0)
+                gcdVal = i;
+        }
+        System.out.println(gcdVal);
+    }
+}

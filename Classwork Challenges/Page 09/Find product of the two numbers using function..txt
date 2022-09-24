@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static int findProduct(int x,int y){
+        int c=x*y;
+        
+        return c;
+    }
+    
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        
+        int x=scn.nextInt();
+        int y=scn.nextInt();
+        
+        int ans=findProduct(x,y);
+        
+        System.out.println(ans);
+    }
+}

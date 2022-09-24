@@ -1,0 +1,18 @@
+Leetcode Compiler :- https://leetcode.com/playground/new/empty
+
+Hackerrank Links :-
+Class Challenges: https://www.hackerrank.com/aug22-java-dsa-class-challenges
+Homework Challenges: https://www.hackerrank.com/aug22-java-dsa-homework-challenges		
+
+Class work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/given-x-and-y-print-xy
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-digit-by-digit-of-a-three-digit-number
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/reverse-a-3-digit-number
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-count-of-digits-and-digits-line-by-line-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/print-the-final-number-xyzw-
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/reverse-n-digit-number
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/check-if-an-armstrong-number-or-not-
+
+Home work questions :-
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/reverse-digits-1-1
+https://www.hackerrank.com/contests/aug22-java-dsa-homework-challenges/challenges/check-palindrome-12-1

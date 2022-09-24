@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        
+        //edge cases
+        if(n==0){
+            System.out.println(1);
+            System.out.println(0);
+        }
+        
+        int m = n;
+        
+        int count=0;
+        while(m!=0){
+            count++;
+            m = m/10;
+        }
+        
+        System.out.println(count);
+        
+        
+        while(n!=0){
+            System.out.println(n%10);
+            n = n/10;
+        }
+        
+    }
+}
