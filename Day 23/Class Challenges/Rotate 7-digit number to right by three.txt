@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int a = n%10;
+        n = n/10;
+        int b = n%10;
+        n = n/10;
+        int c = n%10;
+        n = n/10;
+        
+        System.out.println(1000000*c+100000*b+10000*a+n);
+        
+    }
+}
