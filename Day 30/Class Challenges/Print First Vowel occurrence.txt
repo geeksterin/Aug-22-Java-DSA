@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        char[] arr = new char[n];
+        
+        for(int i=0;i<n;i++){
+            char ch = sc.next().charAt(0);
+            arr[i] = ch;
+            
+            if(ch=='a' || ch=='e' || ch=='i' || ch=='u' || ch=='o'){
+                System.out.println(i);
+                break;
+            }
+        }
+        
+    }
+}

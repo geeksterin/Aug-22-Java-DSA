@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static int linearSearch(int[] arr, int ele){
+        
+        int n = arr.length;
+        
+        for(int i=0;i<n;i++){
+            if(ele == arr[i])
+                return i;  
+        }
+        return -1;
+        
+    }
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        int[] arr = new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
+        }
+        
+        int ele = sc.nextInt();
+        
+        int ind = linearSearch(arr,ele);
+        if(ind>=0)
+           System.out.println("True");
+        else
+            System.out.println("False");
+        
+    }
+}
