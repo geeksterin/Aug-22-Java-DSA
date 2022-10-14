@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int n = 3;
+        
+        int[] arr = {1,2,3};
+        int[] brr = {4,5,6};
+        int[] crr = {7,8,9};
+        
+        //adding arr and brr and storing into drr
+        int[] drr = new int[3];
+        for(int i=0;i<n;i++){
+            drr[i] = arr[i]+brr[i];
+        }
+
+        //adding crr and drr and storing into err
+        int[] err = new int[3];
+        for(int i=0;i<n;i++){
+            err[i] = drr[i]+crr[i];
+        }
+        
+        //Printing
+        for(int i=0;i<n;i++){
+            System.out.print(err[i]+" ");
+        }
+        
+        
+        
+        
+    }
+}
