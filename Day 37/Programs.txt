@@ -1,0 +1,31 @@
+public class Main {
+    static int search(int[] arr,int x){
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==x)
+                return i;
+        }
+        return -1;
+    }
+        
+    public static void main(String[]args){
+        int[] arr={1,2,3,4,5};
+        int x=4;
+        System.out.println(search(arr,x));
+        
+        int n; //User Input (10^6)
+        
+        //O(n)
+        for(int i=1;i<n+10;i++){
+            System.out.println(i);
+        } 
+        
+        //O(n)        
+         for(int i=1;i<3*n;i++){
+            System.out.println(i);
+        }
+        
+        
+        
+        
+    }
+}
