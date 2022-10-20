@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    public static String isHire(int age, int weight, boolean country){
+        
+        if(age>18 && age<30){
+            if(weight>75 && weight <=95){
+                if(country == true){
+                    return "Hired by Rachel Gupta";
+                }else{
+                    return "Not Hired by Rachel Gupta";
+                }
+            }else{
+                return "Not Hired by Rachel Gupta";
+            }
+        }else{
+            return "Not Hired by Rachel Gupta";
+        }
+        
+    }
+    
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        int weight = sc.nextInt();
+        boolean country = sc.nextBoolean();
+        System.out.println(isHire( age, weight,country));
+
+    }
+}

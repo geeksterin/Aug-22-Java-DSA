@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        for(int i=1;i<=n;i++){
+            char ch=s.next().charAt(0);
+            int num=(char)ch;
+            int a=s.nextInt();
+            for(int j=num;j<num+a;j++){
+                char dh=(char)j;
+                System.out.print(dh);
+            }
+            System.out.println();
+        }
+    }
+}
