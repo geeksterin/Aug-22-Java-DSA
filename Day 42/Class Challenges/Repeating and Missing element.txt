@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+     
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
+        }
+        
+        int a = n*(n+1)/2;
+        int b = n*(n+1)*(2*n+1)/6;
+        for(int i=0;i<n;i++){
+            a = a-arr[i]; 
+            b = b-arr[i]*arr[i];
+        }
+        b = b/a;
+        int x = (a+b)/2;
+        int y = b-x;
+        
+        System.out.println(y);
+        System.out.println(x);
+        
+        
+    }
+}
