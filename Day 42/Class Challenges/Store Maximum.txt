@@ -7,29 +7,62 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-      Scanner sc=new Scanner(System.in);
+        
+        Scanner sc=new Scanner(System.in);
+        
         int n=sc.nextInt();
         int arr1[]=new int[n];
-      for(int i=0;i<n;i++) arr1[i]=sc.nextInt();
-       
-        int left[]=new int[n];
-        int right[]=new int[n];
-        
-        left[0]=arr1[0];
-        for(int i=1;i<n;i++){
-            if(arr1[i]>left[i-1])left[i]=arr1[i];
-            else left[i]=left[i-1];
-        }
-        
-          right[n-1]=arr1[n-1];
-        for(int i=n-2;i>=0;i--){
-            if(arr1[i]>right[i+1])right[i]=arr1[i];
-            else right[i]=right[i+1];
-        }
-         int water=0;
         for(int i=0;i<n;i++){
-            water+=(Math.min(left[i],right[i])-arr1[i]);
+            arr1[i]=sc.nextInt();
         }
-         System.out.print(water);
+        
+        int water = 0;
+        for(int i=0;i<n;i++){
+            
+            int maxl = arr1[i];
+            int maxr = arr1[i];
+            
+            for(int j=i+1;j<n;j++){
+                if(arr1[j]>maxr)
+                    maxr = arr1[j];
+            }
+            
+            for(int j=i-1;j>=0;j--){
+                if(arr1[j]>maxl)
+                    maxl = arr1[j];
+            }
+            
+            // System.out.println(maxl+" "+maxr);
+            
+            water += Math.min(maxl,maxr)-arr1[i];
+        }
+        
+        System.out.print(water);
+
+       
+//         int left[]=new int[n];
+//         int right[]=new int[n];
+        
+//         left[0]=arr1[0];
+//         for(int i=1;i<n;i++){
+//             if(arr1[i]>left[i-1])
+//                 left[i]=arr1[i];
+//             else 
+//                 left[i]=left[i-1];
+//         }
+        
+//         right[n-1]=arr1[n-1];
+//         for(int i=n-2;i>=0;i--){
+//             if(arr1[i]>right[i+1])
+//                 right[i]=arr1[i];
+//             else 
+//                 right[i]=right[i+1];
+//         }
+        
+//         int water=0;
+//         for(int i=0;i<n;i++){
+//             water+=(Math.min(left[i],right[i])-arr1[i]);
+//         }
+//          System.out.print(water);
     }
 }
