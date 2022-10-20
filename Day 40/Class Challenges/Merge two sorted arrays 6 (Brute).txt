@@ -1,0 +1,67 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        //arr1 input
+        int n = sc.nextInt();
+        int[] arr1 = new int[n];
+        for(int i=0;i<n;i++){
+            arr1[i] = sc.nextInt();
+        }
+        
+        //arr2 input
+        int m = sc.nextInt();
+        int[] arr2 = new int[m];
+        for(int i=0;i<m;i++){
+            arr2[i] = sc.nextInt();
+        }
+        
+        //Printing arr
+        // for(int i=0;i<n;i++){
+        //     System.out.print(arr1[i]+" ");
+        // }
+        // System.out.println();
+        // for(int i=0;i<m;i++){
+        //     System.out.print(arr2[i]+" ");
+        // }
+        
+        //merge arr1 and arr2 into arr3
+        int[] arr3 = new int[n+m];
+        
+        int i=0;
+        for(i=0;i<n;i++){
+            arr3[i] = arr1[i];
+        }
+        
+        // System.out.println(i);
+        
+        for(int j=i;j<n+m;j++){
+            arr3[j] = arr2[j-n];
+        }
+        
+        //Bubble sort
+        
+        for(i=0;i<n+m;i++){
+            for(int j=0;j<n+m-1;j++){
+                if(arr3[j]>arr3[j+1]){
+                    //swap
+                    int temp = arr3[j+1];
+                    arr3[j+1] = arr3[j];
+                    arr3[j] = temp;
+                }
+            }
+        }
+        
+        // System.out.println();
+        for(i=0;i<n+m;i++){
+            System.out.print(arr3[i]+" ");
+        }
+        
+        
+        
+        
+    }
+}
