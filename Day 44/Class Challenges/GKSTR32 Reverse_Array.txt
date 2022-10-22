@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static void reverseArray(int[] arr, int low, int high){
+        while(low<high){
+            //swap arr[low] and arr[high]
+            int temp = arr[low];
+            arr[low] = arr[high];
+            arr[high] = temp;
+            
+            low++;
+            high--;
+        }
+    }
+
+    static void printArray(int[] arr, int low, int high){
+        for(int i=low;i<=high;i++){
+            System.out.print(arr[i]+" ");
+        }  
+        System.out.println();
+        
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
+        }  
+        
+        reverseArray(arr, 0, n-1);
+        printArray(arr, 0, n-1);
+        
+        
+    }
+}
