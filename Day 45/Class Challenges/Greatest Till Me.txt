@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    public static int[] prefixArray(int[] arr){
+        int n=arr.length;
+        int pre[]=new int[n];
+        
+        pre[0] = arr[0];
+        for(int i=1;i<n;i++){
+            pre[i] = Math.max(pre[i-1],arr[i]);
+        }
+        return pre;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner (System.in);
+        
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        
+        // int left = sc.nextInt();
+        // int right = sc.nextInt();
+        
+        int[] pre = prefixArray(arr);
+        for(int i=0;i<n;i++){
+            System.out.println(pre[i]);
+        }
+        
+    }
+}
