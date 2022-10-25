@@ -6,21 +6,32 @@ import java.util.regex.*;
 
 public class Solution {
     
-    public static int[] prefixArray(int[] arr){
-        int n=arr.length;
+    static int[] prefixArr(int[] arr){
+        int n = arr.length;
+       
         int pre[]=new int[n];
+        int max = 0;
         
-        pre[0] = arr[0];
-        for(int i=1;i<n;i++){
-            pre[i] = Math.max(pre[i-1],arr[i]);
+        for(int i=0;i<n;i++){
+            if(arr[i]>max)
+                max = arr[i];
+            pre[i] = max;
         }
         return pre;
+        
+    }
+    
+    static void printArray(int[] arr, int low, int high){
+        for(int i=low;i<=high;i++){
+            System.out.println(arr[i]+" ");
+        }  
+        System.out.println();
+        
     }
 
     public static void main(String[] args) {
 
-        Scanner sc=new Scanner (System.in);
-        
+        Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int arr[]=new int[n];
         
@@ -28,13 +39,10 @@ public class Solution {
             arr[i]=sc.nextInt();
         }
         
-        // int left = sc.nextInt();
-        // int right = sc.nextInt();
         
-        int[] pre = prefixArray(arr);
-        for(int i=0;i<n;i++){
-            System.out.println(pre[i]);
-        }
+        int[] prefix = prefixArr(arr);  
+        
+        printArray(prefix,0,n-1);
         
     }
 }
