@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    public static void printFrequency(String str){
+        
+        int n=str.length();
+        
+        int freq[]=new int[26];
+        boolean isPrinted[]=new boolean[26];
+        
+        int maxFreq = 0;
+        char maxChar = '-';
+        
+        for(int i=0;i<n;i++){
+            char ch=str.charAt(i);
+            int index=ch-'a';
+            freq[index]=freq[index]+1;
+            
+            //Finding max
+            if(freq[index]>maxFreq){
+                maxFreq = freq[index];
+                maxChar = ch;
+            }
+        }
+        
+        System.out.println(maxChar);
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String str=sc.next();
+        
+        printFrequency(str);
+        
+    }
+}

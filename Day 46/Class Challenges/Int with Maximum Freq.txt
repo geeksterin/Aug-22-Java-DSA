@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    public static void printFrequency(int[] arr){
+        
+        int n=arr.length;
+        
+        int freq[]=new int[10];
+        
+        int maxFreq = 0;
+        int maxInt = -1;
+        
+        for(int i=0;i<n;i++){
+            int index = arr[i];
+            freq[index]=freq[index]+1;
+            
+            //Finding max
+            if(freq[index]>maxFreq){
+                maxFreq = freq[index];
+                maxInt = arr[i];
+            }
+        }
+        
+        System.out.println(maxInt);
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        int n=scn.nextInt();
+        int arr[]=new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i]=scn.nextInt();
+        }
+        
+        
+        printFrequency(arr);
+        
+    }
+}

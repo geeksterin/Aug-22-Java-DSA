@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    public static void printFrequency(String str){
+        
+        int n=str.length();
+        
+        int freq[]=new int[26];
+        boolean isPrinted[]=new boolean[26];
+        
+        for(int i=0;i<n;i++){
+            char ch=str.charAt(i);
+            int index=ch-'a';
+            freq[index]=freq[index]+1;
+        }
+        
+        for(int i=0;i<n;i++){
+            char ch=str.charAt(i);
+            int index=ch-'a';
+            
+            if(isPrinted[index]==false){
+                System.out.println(ch+"-"+freq[index]);
+                isPrinted[index]=true;
+            }
+        }
+        
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String str=sc.next();
+        
+        printFrequency(str);
+        
+    }
+}
