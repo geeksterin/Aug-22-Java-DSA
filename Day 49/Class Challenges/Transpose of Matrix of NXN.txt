@@ -1,0 +1,74 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static void swap(int a[][],int i,int j){
+        
+        int temp = a[i][j];
+        a[i][j] = a[j][i];
+        a[j][i] = temp;
+    }
+    
+    static void print2DArray(int[][] arr){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
+    
+     static int[][] transpose(int[][] arr){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        int[][] trans = new int[n][m];
+        
+        for(int i=0;i<n;i++)
+            for(int j=0;j<m;j++)
+                trans[i][j] = arr[j][i];
+                
+        return trans;
+        
+    }
+    
+    static void transpose2(int[][] arr){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        int[][] trans = new int[n][m];
+        
+        for(int i=0;i<n;i++)
+            for(int j=0;j<=i;j++)
+                swap(arr,i,j);
+        
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        int n=scn.nextInt();
+        
+        int a[][]=new int[n][n];
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                a[i][j]=scn.nextInt();
+            }
+        }
+        
+        // int[][] trans = transpose(a);
+        
+        // print2DArray(trans);
+        
+        transpose2(a);
+        print2DArray(a);
+    }
+}
