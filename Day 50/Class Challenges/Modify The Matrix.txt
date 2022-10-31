@@ -35,23 +35,6 @@ public class Solution {
         
     }
     
-    static void fillWith1(int arr[][],int row,int col ){
-        
-        int m=arr.length;
-        int n=arr[0].length;
-        
-        // row
-        for(int j=0;j<n;j++){
-            arr[row][j]=1;
-        }
-        
-        // col
-        for(int i=0;i<m;i++){
-            arr[i][col]=1;
-        }
-        
-    }
-
     public static void modifyTheMatrix(int arr[][]){
         int m=arr.length;
         int n=arr[0].length;
@@ -59,8 +42,7 @@ public class Solution {
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 if(arr[i][j]==1){
-                    fillWith1(arr,i,j);
-                    // fillWithMinus(arr,i,j);
+                    fillWithMinus(arr,i,j);
                 }
             }
         }
