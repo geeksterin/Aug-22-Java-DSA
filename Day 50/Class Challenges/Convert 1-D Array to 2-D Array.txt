@@ -1,0 +1,55 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    static void print2DArray(int[][] arr){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                System.out.print(arr[i][j]+" ");
+            }
+            System.out.println();
+        }
+        
+    }
+    
+    static int[][] convert1Dto2D(int arr[],int p,int q){
+        
+        int result[][]=new int[p][q];
+        int count=0;
+        
+        for(int i=0;i<p;i++){
+            for(int j=0;j<q;j++){
+                result[i][j]=arr[count];
+                count++;
+            }
+        }
+        
+        return result;
+        
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        int n=scn.nextInt();
+        int arr[]=new int[n];
+        
+        for(int i=0;i<n;i++){
+            arr[i]=scn.nextInt();
+        }
+        
+        int p=scn.nextInt();
+        int q=scn.nextInt();
+        
+        int[][] res = convert1Dto2D(arr,p,q);
+        print2DArray(res);
+    }
+}
