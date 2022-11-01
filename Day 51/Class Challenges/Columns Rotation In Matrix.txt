@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static boolean checkMatrix(int arr[][]){
+        int n=arr.length;
+        
+        String str="";
+        for(int j=0;j<n;j++){
+            str+=arr[j][0];
+        }
+        
+        str=str+str;
+        
+        
+        for(int j=1;j<n;j++){
+            String curr="";
+            for(int i=0;i<n;i++){
+                curr+=arr[i][j];
+            }
+            if(str.indexOf(curr)==-1){
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        
+        int arr[][]=new int[n][n];
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                arr[i][j]=sc.nextInt();
+            }
+        }
+                
+        System.out.println(checkMatrix(arr));
+    }
+}
