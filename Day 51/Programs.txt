@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        String s = "akarsh";
+        
+        System.out.println(s.indexOf("ars")); //2
+        System.out.println(s.indexOf("xyz")); //-1
+
+    }
+}
