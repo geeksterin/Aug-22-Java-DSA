@@ -1,0 +1,48 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static boolean isPal(int[] arr, int low, int high){
+        while(low<high){
+            if(arr[low] != arr[high])
+                return false;
+            
+            low++;
+            high--;
+        }
+        return true;
+    }
+    
+    static int countRowsPal(int[][] arr){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        int count = 0;
+        for(int i=0;i<n;i++)
+            if(isPal(arr[i],0,m-1))
+                count++;
+        
+        return count;
+        
+    }
+    
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        int n = scn.nextInt();
+        int m = scn.nextInt();
+        
+        int arr[][]=new int[n][m];
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                arr[i][j]=scn.nextInt();
+            }
+        }
+        
+        System.out.println(countRowsPal(arr));
+        
+    }
+}
