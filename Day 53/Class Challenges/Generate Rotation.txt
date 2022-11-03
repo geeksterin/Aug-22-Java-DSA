@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    static void reverseArray(char[] arr, int low, int high){
+        while(low<high){
+            //swap arr[low] and arr[high]
+            char temp = arr[low];
+            arr[low] = arr[high];
+            arr[high] = temp;
+            
+            low++;
+            high--;
+        }
+    }
+    
+    static void rotation(String str,int k){
+        
+        char arr[]=str.toCharArray(); 
+        int len=str.length();
+        reverseArray(arr,0,len-1);
+        reverseArray(arr,0,k-1);
+        reverseArray(arr,k,len-1);
+        
+        
+        for(int i=0;i<len;i++){
+            System.out.print(arr[i]);
+        }
+        
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scn=new Scanner(System.in);
+        String str=scn.next();
+        
+        for(int i=0;i<str.length();i++){
+            rotation(str,i);
+        }
+    }
+}

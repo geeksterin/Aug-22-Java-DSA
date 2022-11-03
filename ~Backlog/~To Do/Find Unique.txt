@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static int countUniqueDigits(String str){
+        
+        int freq[]=new int[10];
+        
+        for(int i=0;i<str.length();i++){
+            int ch=str.charAt(i);
+            freq[ch-48]++;
+        }
+        
+        int count=0;
+        
+        for(int i=0;i<10;i++){
+            if(freq[i]>0){
+                count++;
+            }
+        }
+        
+        return count;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        String str=scn.nextLine();
+        
+        int ans=countUniqueDigits(str);
+        System.out.println(ans);
+    }
+}
