@@ -5,31 +5,47 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner scn=new Scanner(System.in);
-        String str=scn.nextLine();
+    public static void desiredString(String str){
         
-        int count=0;
-        int maxLen=0;
+        int count = 0;
+        int maxLen = -1;
+        String maxStr="";
         
         for(int i=0;i<str.length();i++){
-            char ch=str.charAt(i);
-            if(ch=='1'){
-                count++;
-            }else {
-                if(count>maxLen){
-                    maxLen=count;
+            for(int j=i;j<str.length();j++){
+                
+                String s=""; //substring
+                for(int k=i;k<=j;k++){
+                    s+=str.charAt(k);
                 }
-                count=0;
+                if(s.length()>1 && s.charAt(0)=='A' && s.charAt(s.length()-1)=='A'){
+                    count++;
+                    if(maxLen < s.length()){
+                        maxLen = s.length();
+                        maxStr = s;
+                    }
+                }
+                
             }
         }
         
-        if(count>maxLen){
-            maxLen=count;
+        if(count==0){
+            System.out.println(-1);
+        }
+        else {
+            System.out.println(count);
+            System.out.println(maxLen);
+            System.out.println(maxStr);
         }
         
-        System.out.println(maxLen);
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        
+        String str=sc.nextLine();
+        
+        desiredString(str);
     }
 }
