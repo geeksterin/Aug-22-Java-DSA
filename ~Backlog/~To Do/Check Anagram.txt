@@ -1,0 +1,48 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.nextLine();
+        
+        int[] freq1 = new int[26];
+        str1 = str1.toLowerCase();
+        
+        for(int i=0;i<str1.length();i++){
+            char ch = str1.charAt(i);
+            if(ch>=97 && ch<=122){
+                int ind = ch-97;
+                freq1[ind]++;
+            }
+        }
+        
+        String str2 = sc.nextLine();
+        
+        int[] freq2 = new int[26];
+        str2 = str2.toLowerCase();
+        
+        for(int i=0;i<str2.length();i++){
+            char ch = str2.charAt(i);
+            if(ch>=97 && ch<=122){
+                int ind = ch-97;
+                freq2[ind]++;
+            }
+        }
+        
+        for(int i=0;i<26;i++){
+            if(freq1[i] != freq2[i]){
+                System.out.print("False");
+                return;
+            }
+        }
+        
+        System.out.print("True");
+        
+    }
+}

@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        
+        int[] freq = new int[26];
+        str = str.toLowerCase();
+        
+        for(int i=0;i<str.length();i++){
+            char ch = str.charAt(i);
+            if(ch>=97 && ch<=122){
+                int ind = ch-97;
+                freq[ind]++;
+            }
+        }
+        
+        for(int j=0;j<str.length();j++){
+            char ch = str.charAt(j);
+            if(freq[ch-97]==1){
+                System.out.print(ch);
+                return;
+            }
+        }
+        
+        System.out.print(-1); 
+        
+    }
+}
