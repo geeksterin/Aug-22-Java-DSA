@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static boolean checkRow(String s, String row){
+        int n = s.length();
+        for(int i=0;i<n;i++){
+            char ch = s.charAt(i);
+            if(row.indexOf(ch)==-1)
+                return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        
+        String[] arr = new String[n];
+        
+        for(int i=0;i<n;i++)
+            arr[i] = sc.next();
+        
+        String first = "qwertyuiop";
+        String second = "asdfghjkl";
+        String third = "zxcvbnm";
+        
+        boolean ans = false;
+        
+        for(int i=0;i<n;i++){
+            
+            String s = arr[i];
+            s = s.toLowerCase();
+            
+            boolean ans1 = checkRow(s,first);
+            boolean ans2 = checkRow(s,second);
+            boolean ans3 = checkRow(s,third);
+            
+            if(ans1 || ans2 || ans3){
+                System.out.print(s+" ");
+                ans = true;
+            }
+                
+        }
+        
+        if(ans==false)
+            System.out.print(-1);
+    }
+}
