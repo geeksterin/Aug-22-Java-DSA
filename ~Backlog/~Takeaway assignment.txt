@@ -1,0 +1,7 @@
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/cc2-03-power-of-a-string
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/count-substring-1-2
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/long-pressed-name-1-1
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-square-root-1-2
