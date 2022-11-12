@@ -7,22 +7,32 @@ import java.util.regex.*;
 public class Solution {
     
     public static int binarySearch(int n){
-        int low=1;
-        int high=n;
-        int ans=-1;
-        while(low<=high){
+        
+//         int low=1;
+//         int high=n;
+//         int ans=-1;
+//         while(low<=high){
             
-            int mid=(low+high)/2;
+//             int mid=(low+high)/2;
             
-            if(mid*mid==n){
-                return mid;
-            }
-            else if(mid*mid>n){
-                high=mid-1;
-            }else {
-                ans=mid;
-                low=mid+1;
-            }
+//             if(mid*mid==n){
+//                 return mid;
+//             }
+//             else if(mid*mid>n){
+//                 high=mid-1;
+//             }else {
+//                 ans=mid;
+//                 low=mid+1;
+//             }
+//         }
+        
+        int ans = 1;
+        
+        while(ans*ans != n){
+            ans++;
+            
+            if(ans*ans>n)
+                return ans-1;
         }
         
         return ans;
@@ -36,6 +46,9 @@ public class Solution {
         
         int ans=binarySearch(n);
         
-        System.out.println((int)Math.sqrt(n));
+        // System.out.println((int)Math.sqrt(n));
+        
+        System.out.println(ans);
+
     }
 }

@@ -1,0 +1,110 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static boolean ifThere(char[][] arr,int p, int q, String word){
+        
+        int n = arr.length;
+        String hereWord = "";
+        
+        //south
+        for(int i=p+1;i<n;i++){
+            hereWord += arr[i][q];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //north
+        for(int i=p-1;i>=0;i--){
+            hereWord += arr[i][q];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //east
+        for(int j=q+1;j<n;j++){
+            hereWord += arr[p][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //west
+        for(int j=q-1;j>=0;j--){
+            hereWord += arr[p][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //south-east
+        for(int j=q+1,i=p+1;j<n && i<n;j++,i++){
+            hereWord += arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //north-west
+        for(int j=q-1,i=p-1;j>=0 && i>=0;j--,i--){
+            hereWord += arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //north-east
+        for(int j=q+1,i=p-1;j<n && i>=0;j++,i--){
+            hereWord += arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        hereWord = "";
+        //south-west
+        for(int j=q-1,i=p+1;j>=0 && i<n;j--,i++){
+            hereWord += arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        return false;
+        
+    }
+    
+    static boolean crossWord(char[][] arr, String word){
+        
+        int n = arr.length;
+        
+        //to detect queens
+        for(int i=0;i<n;i++)
+            for(int j=0;j<n;j++)
+                if(ifThere(arr,i,j, word))
+                    return true;
+        
+        return false;
+
+    } 
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        
+        char arr[][] = new char[n][n];
+        
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                arr[i][j] = sc.next().charAt(0);
+            }
+        }
+        
+        String word = sc.next();
+        
+        boolean ans = crossWord(arr,word);
+        System.out.println(ans);
+    }
+}
