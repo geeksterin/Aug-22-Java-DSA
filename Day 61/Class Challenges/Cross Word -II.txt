@@ -1,0 +1,78 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static boolean isWordPresent(char[][] arr,int p, int q, String word){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        //south
+        String hereWord = "";
+        for(int i=p;i<n;i++){
+            hereWord = hereWord + arr[i][q];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        ///east
+        hereWord = "";
+        for(int j=q;j<m;j++){
+            hereWord = hereWord + arr[p][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        //south-east
+        hereWord = "";
+        for(int j=q,i=p;j<m && i<n;j++,i++){
+            hereWord = hereWord + arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        //south-west
+        hereWord = "";
+        for(int j=q,i=p;j>=0 && i<n;j--,i++){
+            hereWord = hereWord + arr[i][j];
+            if(hereWord.equals(word))
+                return true;
+        }
+        
+        return false;
+               
+    }
+    
+    static boolean crossWord(char[][] arr, String word){
+        
+        int n = arr.length;
+        int m = arr[0].length;
+        
+        for(int i=0;i<n;i++)
+            for(int j=0;j<m;j++)
+                if(isWordPresent(arr,i,j,word))
+                    return true;
+        
+        return false;
+                
+    } 
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int m = sc.nextInt();
+        
+        char arr[][] = new char[n][m];
+        
+        for(int i=0;i<n;i++)
+            for(int j=0;j<m;j++)
+                arr[i][j]=sc.next().charAt(0);
+        
+        String word = sc.next();
+        
+        boolean ans = crossWord(arr, word);
+        System.out.println(ans);
+    }
+}

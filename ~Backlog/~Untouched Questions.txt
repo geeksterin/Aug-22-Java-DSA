@@ -2,8 +2,4 @@ https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/s
 
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/rotation-check-in-matrix
 
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/crossword-1
-
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/cross-word-ii
-
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/number-of-square-matrices-with-all-1s
