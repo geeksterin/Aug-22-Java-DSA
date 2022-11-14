@@ -1,0 +1,65 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    static void matrixMultiply(int[][] arr, int[][] brr){
+        
+        int row1 = arr.length;
+        int col1 = arr[0].length;
+        
+        int row2 = brr.length;
+        int col2 = brr[0].length;
+        
+        if(col1 != row2){
+            System.out.print(-1);
+            return;
+        }
+        
+        int[][] crr = new int[row1][col2];
+        
+        for(int i=0;i<row1;i++){
+            for(int j=0;j<col2;j++){
+                //crr[i][j];
+                
+                for(int k=0;k<col1;k++)
+                    crr[i][j] = crr[i][j] + arr[i][k]*brr[k][j];
+            }
+        }
+        
+        for(int i=0;i<row1;i++){
+            for(int j=0;j<col2;j++){
+                System.out.print(crr[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+    }
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int m1 = sc.nextInt();
+        int n1 = sc.nextInt();
+        
+        int[][] arr = new int[m1][n1];
+        
+        for(int i=0;i<m1;i++)
+            for(int j=0;j<n1;j++)
+                arr[i][j] = sc.nextInt();
+        
+        int m2 = sc.nextInt();
+        int n2 = sc.nextInt();
+        
+        int[][] brr = new int[m2][n2];
+        
+        for(int i=0;i<m2;i++)
+            for(int j=0;j<n2;j++)
+                brr[i][j] = sc.nextInt();
+        
+        matrixMultiply(arr, brr);
+
+        
+    }
+}
