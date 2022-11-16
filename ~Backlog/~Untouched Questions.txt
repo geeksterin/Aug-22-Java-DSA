@@ -1,5 +1,1 @@
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/spiral-matrix-44
-
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/rotation-check-in-matrix
-
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/number-of-square-matrices-with-all-1s
