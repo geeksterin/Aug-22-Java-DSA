@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        
+        int count2 = 0;
+        int count5 = 0;
+        
+        for(int i=1;i<=n;i++){
+            
+            int temp = i;
+            while(temp%2==0){
+                count2++;
+                temp = (int)temp/2;
+            }
+            
+            temp = i;
+            while(temp%5==0){
+                count5++;
+                temp = (int)temp/5;
+            }
+            
+            // System.out.println(count2+" "+count5);
+            
+        }
+        
+        System.out.println(Math.min(count2,count5));
+    }
+}

@@ -2,4 +2,10 @@ https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/c
 
 https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/count-substring-1-2
 
-https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/long-pressed-name-1-1
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/spiral-matrix-44
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/subsequence-of-string-1
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-the-index-2-1
+
+https://www.hackerrank.com/contests/aug22-java-dsa-class-challenges/challenges/find-element-in-rotated-array
