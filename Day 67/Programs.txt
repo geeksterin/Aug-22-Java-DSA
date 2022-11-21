@@ -1,0 +1,51 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        //Syntax
+        // int[] arr = new int[n];
+        ArrayList<Integer> arr = new ArrayList<>();
+        
+        //hetrogenous
+        // ArrayList<> arr = new ArrayList<>();
+        
+        //Size
+        // int size = arr.length;
+        int size = arr.size();
+        System.out.println(size);
+        
+        //Add elements
+        //arr[i] = 5;
+        arr.add(5);
+        arr.add(7);
+        arr.add(1);
+        arr.add(3);
+        
+        // System.out.println(arr[2]);
+        System.out.println(arr.get(2));
+        
+        //loop (printing all elements)
+        // for(int i=0;i<size;i++)
+        //     System.out.print(arr[i]+" ");
+        for(int i=0;i<arr.size();i++)
+            System.out.print(arr.get(i)+" ");
+        
+        System.out.println();
+        
+        //remove the element present at that index
+        arr.remove(2);
+        arr.add(5);
+        
+        //for each loop
+        // for(Integer ele : arr)
+        //     System.out.print(ele+" ");
+        
+        //add element at 0th index
+        //add(index, element)
+        arr.add(0,67);
+        
+        for(Integer ele : arr)
+            System.out.print(ele+" ");
+        
+        
+    }
+}

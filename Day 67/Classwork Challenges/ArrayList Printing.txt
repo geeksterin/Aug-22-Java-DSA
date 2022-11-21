@@ -1,0 +1,37 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        
+        int n=scn.nextInt();
+        
+        ArrayList<Integer>arr=new ArrayList<>();
+        
+        for(int i=0;i<n;i++){
+            // arr[i]=scn.nextInt()
+            int x=scn.nextInt();
+            
+            arr.add(x);
+        }
+        
+        for(int i=0;i<n;i++){
+            System.out.print(arr.get(i)+" ");
+        }
+        
+        System.out.println();
+        
+        //for each loop
+        for(Integer x:arr){
+            // arr.remove(x);
+            System.out.print(x+" ");
+        }
+        
+    }
+}

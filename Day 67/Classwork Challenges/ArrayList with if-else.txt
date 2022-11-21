@@ -1,0 +1,77 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        
+        Scanner scn=new Scanner(System.in);
+        
+        ArrayList<Integer>arr=new ArrayList<>();
+        
+        int t=scn.nextInt();
+        
+        for(int i=1;i<=t;i++){
+            int c=scn.nextInt();
+            
+            if(c==1){
+                System.out.println(arr.size());
+            }
+            
+            else if(c==2){
+                int size=arr.size();
+                if(size==0){
+                    System.out.println("invalid-move");
+                }
+                else {
+                    int index=arr.size()-1;
+                    System.out.println(arr.get(index));
+                    arr.remove(index);
+                }
+            }
+            
+            else if(c==3){
+                int x=scn.nextInt();
+                System.out.println(x);
+                arr.add(x);
+            }
+            
+            else if(c==4){
+                int size=arr.size();
+                if(size==0){
+                    System.out.println("invalid-move");
+                }
+                else {
+                    int ele=arr.get(0);
+                    System.out.println(ele);
+                    arr.remove(0);
+                }
+            }
+            
+            else if(c==5){
+                int x =scn.nextInt();
+                System.out.println(x);
+                arr.add(0,x);
+            }
+            
+            else if(c==6){
+                int size=arr.size();
+                if(size==0){
+                    System.out.println("invalid-move");
+                }
+                else {
+                    for(int j=0;j<arr.size();j++){
+                        System.out.print(arr.get(j)+" ");
+                    }
+                    System.out.println();
+                }
+            }
+            
+        }
+        
+    }
+}
