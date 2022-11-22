@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+
+        String str=scn.next();
+
+        Stack<Character>st=new Stack<>();
+
+        for(int j=0;j<str.length();j++)
+            st.push(str.charAt(j));
+
+        while(st.size()>0)
+            System.out.print(st.pop());
+
+    }
+}

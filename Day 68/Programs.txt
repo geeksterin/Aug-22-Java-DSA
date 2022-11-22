@@ -1,0 +1,23 @@
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        
+        Stack<Integer> st = new Stack<>();
+        
+        //add elements (from top)
+        st.push(5);
+        st.push(6);
+        st.push(7);
+        
+        System.out.println(st);
+        
+        //remove (from top)
+        // st.pop();
+        
+        System.out.println(st.peek());
+        
+        System.out.println(st.size());
+    
+
+    }
+}
