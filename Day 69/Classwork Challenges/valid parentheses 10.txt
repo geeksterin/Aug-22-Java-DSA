@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Solution {
+    
+    static boolean isValid(String str) {
+        Stack<Character> st = new Stack<Character>();
+        for(int i=0;i<str.length();i++) {
+            char ch = str.charAt(i);
+            if(ch=='(')
+                st.push(ch);
+            else if(ch==')') {
+                if(st.empty())
+                    return false;
+                int alpha = st.pop();
+            }
+        }
+        if(st.empty())
+            return true;
+        else
+            return false;
+    }
+    
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        
+        String str=scn.nextLine();
+        
+        boolean ans=isValid(str);
+        
+        System.out.println(ans);
+    }
+}
