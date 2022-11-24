@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    
+    static void nextGreaterLeft1(int[] arr){
+        for(int i=0;i<arr.length;i++){
+            int ans = -1;
+            for(int j=i-1; j>=0; j--){
+                if(arr[j]>arr[i]){
+                    ans = arr[j];
+                    break;
+                }
+            }
+            System.out.print(ans+" ");
+        }
+    }
+    
+    static void nextGreaterLeft(int[] arr){
+        Stack<Integer> st = new Stack<Integer>();
+        for(int i=0;i<arr.length;i++){
+            int ans = -1;
+            if(st.empty())
+                ans = -1;
+            else if(st.peek()>arr[i])
+                ans = st.peek();
+            else{
+                while(st.size()>0 && st.peek()<arr[i]){
+                    st.pop();
+                }
+                if(st.size()==0)
+                    ans = -1;
+                else
+                    ans = st.peek();
+            }
+            st.push(arr[i]);
+            System.out.print(ans+" ");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int n=scn.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++)
+            arr[i]=scn.nextInt();
+        nextGreaterLeft(arr);   
+    }
+}
