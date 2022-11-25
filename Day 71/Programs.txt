@@ -1,0 +1,30 @@
+public class Main {
+    public static void main(String[] args) {
+        //<key,value>
+        HashMap<Integer, String> h = new HashMap<Integer, String>();
+        
+        //add elements
+        h.put(22,"Akarsh");
+        h.put(1,"Aastha");
+        h.put(52,"Akarsh");
+        h.put(17,"Aishwarya");
+        h.put(4,"Abhay");
+        
+        System.out.println(h.size());
+        System.out.println(h.get(22));
+        System.out.println(h.containsKey(22));
+        System.out.println(h.containsKey(90));
+        
+        //Remove using key
+        h.remove(17);
+        
+        //change the value
+        h.put(1,"Aayushman");
+
+        System.out.println("------");
+        
+        for(Map.Entry<Integer,String> e : h.entrySet())
+            System.out.println(e.getKey()+" -> "+e.getValue());
+        
+    }
+}

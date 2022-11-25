@@ -1,0 +1,41 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        
+        for(int i=0;i<n;i++)
+            arr[i] = sc.nextInt();
+        
+        //key -> arr[i]
+        //value -> frequency of arr[i]
+        HashMap<Integer,Integer> m = new HashMap<>();
+        
+        for(int i=0;i<n;i++){
+            if(m.containsKey(arr[i])){
+                int freq = m.get(arr[i]);
+                freq++;
+                m.put(arr[i],freq);
+            }
+            else
+                m.put(arr[i],1);
+        }
+        
+        ArrayList<Integer> ans = new ArrayList<>();
+        for(Map.Entry<Integer,Integer> e : m.entrySet()){
+            if(e.getValue()==Math.abs(e.getKey()))
+                ans.add(e.getKey());
+              // System.out.println(e.getKey());
+        }
+        
+        Collections.sort(ans);
+        for(Integer i:ans){
+            System.out.println(i);
+        }
+            
+    }
+}
