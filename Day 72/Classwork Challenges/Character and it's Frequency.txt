@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        
+        int n=scn.nextInt();
+        char[] arr = new char[n];
+        
+        HashMap<Character,Integer> m = new HashMap<>();
+        
+        for(int i=0;i<n;i++)
+            arr[i]=scn.next().charAt(0);
+        
+        for(int i=0;i<n;i++){
+            if(m.containsKey(arr[i])){
+                int freq = m.get(arr[i]);
+                freq++;
+                m.put(arr[i],freq);
+            }
+            else
+                m.put(arr[i],1);
+        }
+        
+        // for(Map.Entry<Character,Integer> mm : m.entrySet())
+        //     System.out.println(mm.getKey()+" "+mm.getValue());   
+        
+        int key = 0;
+        
+        while(key<=255){
+            if(m.containsKey((char)key)==true)
+                System.out.println((char)key+" "+m.get((char)key)); 
+            key++;
+        }
+
+    }
+}

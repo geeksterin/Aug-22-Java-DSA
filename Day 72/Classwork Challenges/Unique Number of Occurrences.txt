@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static boolean uniqueOccurences(int arr[]){
+        
+        HashMap<Integer,Integer>m=new HashMap<>();
+        
+        for(int i=0;i<arr.length;i++){
+            if(m.containsKey(arr[i])){
+                int freq = m.get(arr[i]);
+                freq++;
+                m.put(arr[i],freq);
+            }
+            else
+                m.put(arr[i],1);
+        }
+        
+        HashMap<Integer,Boolean>map2=new HashMap<>();
+        
+        for(Integer key:m.keySet()){
+            
+            int value=m.get(key);
+            
+            if(map2.containsKey(value)==true)
+                return false;
+            else
+                map2.put(value,true);
+            
+        }
+        
+        return true;
+        
+    }
+    
+    public static void main(String[] args) {        
+        
+        Scanner scn=new Scanner(System.in);
+        
+        int n=scn.nextInt();
+        
+        int arr[]=new int[n];
+        
+        for(int i=0;i<n;i++)
+            arr[i]=scn.nextInt();
+        
+        boolean ans=uniqueOccurences(arr);
+        
+        System.out.println(ans);
+    }
+}
