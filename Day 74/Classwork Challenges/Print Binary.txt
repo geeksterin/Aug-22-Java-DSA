@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        
+        Queue<String> q = new LinkedList<String>();
+ 
+        q.add("1");
+ 
+        while (n>0) {
+            
+            String s = q.remove();
+            System.out.print(s+" ");
+ 
+            q.add(s + "0");
+            q.add(s + "1");
+            
+            n--;
+        }
+    }
+}

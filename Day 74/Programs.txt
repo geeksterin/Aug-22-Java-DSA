@@ -1,0 +1,20 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        Queue<String> q = new LinkedList<>();
+        
+        q.add("Akarsh");
+        q.add("Abhay");
+        q.add("Aastha");
+        q.add("Abhi");
+        
+        System.out.println(q.size());
+        
+        q.remove();
+        q.remove();
+        
+        System.out.println(q);
+        System.out.println(q.peek());
+        
+    }
+}
