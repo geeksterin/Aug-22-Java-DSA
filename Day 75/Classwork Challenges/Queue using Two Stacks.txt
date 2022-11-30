@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        
+        int q=scn.nextInt();
+        Stack<Integer> st1 = new Stack<>();
+        Stack<Integer> st2 = new Stack<>();
+        
+        for(int i=0;i<q;i++){ 
+            
+            int c=scn.nextInt();
+            
+            if(c==1){
+                int x=scn.nextInt();
+                st1.push(x);   
+            }
+            
+            else if(c==2){
+                if(st2.size()==0)
+                    while(st1.size()>0)
+                        st2.push(st1.pop());
+
+                st2.pop();   
+            }
+            
+            else if(c==3){
+                if(st2.size()==0)
+                    while(st1.size()>0)
+                        st2.push(st1.pop());
+                
+                System.out.println(st2.peek());
+                
+            }
+        }
+        
+    }
+}
