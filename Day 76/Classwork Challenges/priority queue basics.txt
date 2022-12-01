@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner scn=new Scanner(System.in);
+        int t=scn.nextInt();
+        
+//         int min=Integer.MAX_VALUE;
+        
+//         for(int i=0;i<t;i++){
+//             int x=scn.nextInt();
+//             min=Math.min(min,x);
+//             System.out.println(min);  
+//         }
+        
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
+        
+        for(int i=0;i<t;i++){
+            int x=scn.nextInt();
+            pq.add(x);
+            System.out.println(pq.peek()); 
+        }
+
+    }
+}
