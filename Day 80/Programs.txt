@@ -1,0 +1,47 @@
+public class Main {
+    
+    static int fib(int n){
+        if(n==1)
+            return 0;
+        if(n==2)
+            return 1;
+        return fib(n-1)+fib(n-2);
+    }
+    
+    // static void printArray(int[] arr, int n){
+    //     if(n==1){
+    //         System.out.print(arr[0]+" ");
+    //         return;
+    //     }
+    //     printArray(arr,n-1);
+    //     System.out.print(arr[n-1]+" ");
+    // }
+    
+    static void printArray(int[] arr, int n){
+        if(n==1){
+            System.out.print(arr[0]+" ");
+            return;
+        }
+        System.out.print(arr[n-1]+" ");
+        printArray(arr,n-1);
+        // System.out.print(arr[n-1]+" ");
+    }
+    
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+//         int n = sc.nextInt();
+//         int val = fib(n);
+//         System.out.print(val);
+        
+        // int[] arr = {2,5,3,8};
+        // int n = arr.length;
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for(int i=0;i<n;i++)
+            arr[i] = sc.nextInt();
+        printArray(arr,n);
+        
+    }
+}
