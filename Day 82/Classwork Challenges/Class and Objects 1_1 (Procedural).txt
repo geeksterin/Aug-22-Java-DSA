@@ -1,0 +1,48 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        String b1_name = "Batman 1";
+        int b1_rating = 8;
+        int b1_coll = 200000;
+        int b1_profit = 5000;
+        String b1_actor = "Rachel Gupta & Nikhil Chinapa";
+        String b1_actress = "Disha";
+        
+        String b2_name = "Batman 2";
+        int b2_rating = 9;
+        int b2_coll = 500000;
+        int b2_profit = 8000;
+        String b2_actor = "Rannvijay Singha & Prince Narula";
+        String b2_actress = "Neha Dhupia";
+
+        String b3_name = "Batman 3";
+        int b3_rating = 10;
+        int b3_coll = 700000;
+        int b3_profit = 6000;
+        String b3_actor = "Rachel Gupta & Prince Narula";
+        String b3_actress = "Neha Dhupia";
+        
+        System.out.println(b1_rating);
+        System.out.println(b1_coll);
+        System.out.println(b1_profit);
+        System.out.println(b1_actor);
+        System.out.println(b1_actress);
+        
+        System.out.println(b2_rating);
+        System.out.println(b2_coll);
+        System.out.println(b2_profit);
+        System.out.println(b2_actor);
+        System.out.println(b2_actress);
+        
+        System.out.println(b3_rating);
+        System.out.println(b3_coll);
+        System.out.println(b3_profit);
+        System.out.println(b3_actor);
+        System.out.println(b3_actress);
+
+        
+    }
+}

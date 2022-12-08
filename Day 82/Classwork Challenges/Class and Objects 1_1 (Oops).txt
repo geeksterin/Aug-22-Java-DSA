@@ -1,0 +1,60 @@
+import java.util.*;
+
+class Movies{
+    
+    String name;
+    int ratings;
+    int collections;
+    int profit;
+    String actor;
+    String actress;
+    
+    void printMovieDetails(){
+        System.out.println(ratings);
+        System.out.println(collections);
+        System.out.println(profit);
+        System.out.println(actor);
+        System.out.println(actress);
+    }
+    
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        //ClassName objName = new ClassName();
+        Movies batman1 = new Movies();
+        Movies batman2 = new Movies();
+        Movies batman3 = new Movies();
+        
+        //objName.attributeName = value;
+        batman1.ratings = 8;
+        batman1.collections = 200000;
+        batman1.profit = 5000;
+        batman1.actor = "Rachel Gupta & Nikhil Chinapa";
+        batman1.actress = "Disha";
+        
+        //objName.methodName
+        batman1.printMovieDetails();
+        
+        batman2.ratings = 9;
+        batman2.collections = 500000;
+        batman2.profit = 8000;
+        batman2.actor = "Rannvijay Singha & Prince Narula";
+        batman2.actress = "Neha Dhupia";
+        
+        batman2.printMovieDetails();
+        
+        batman3.ratings = 10;
+        batman3.collections = 700000;
+        batman3.profit = 6000;
+        batman3.actor = "Rachel Gupta & Prince Narula";
+        batman3.actress = "Neha Dhupia";
+        
+        batman3.printMovieDetails();
+        
+    
+        
+    }
+}
