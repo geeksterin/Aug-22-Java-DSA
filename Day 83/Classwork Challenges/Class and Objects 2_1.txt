@@ -1,0 +1,81 @@
+import java.util.*;
+class Music{
+    
+    String name;
+    int post;
+    int reels;
+    String tick;
+    int followers;
+    int following;
+    String category;
+    String gender;
+    
+    void printDetail(){
+        
+        System.out.println(name);
+        System.out.println(post);
+        System.out.println(reels);
+        System.out.println(tick);
+        System.out.println(followers);
+        System.out.println(following);
+        System.out.println(category);
+        System.out.println(gender);
+        
+    }
+    
+}
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        
+        Music raftar = new Music();
+        
+        raftar.name = "Raftaar";
+        raftar.post = 340;
+        raftar.reels = 400;
+        raftar.tick = "Yes";
+        raftar.followers = 7;
+        raftar.following = 200;
+        raftar.category = "Rapper";
+        raftar.gender = "M";
+        
+        Music rechal = new Music();
+        
+        rechal.name = "Rachel Gupta";
+        rechal.post = 550;
+        rechal.reels = 350;
+        rechal.tick = "Yes";
+        rechal.followers = 15;
+        rechal.following = 10;
+        rechal.category = "Artist";
+        rechal.gender = "M";
+        
+        Music nikhil = new Music();
+        
+        nikhil.name = "Nikhil Chinapa";
+        nikhil.post = 500;
+        nikhil.reels = 220;
+        nikhil.tick = "Yes";
+        nikhil.followers = 5;
+        nikhil.following = 210;
+        nikhil.category = "VJ";
+        nikhil.gender = "M";
+        
+        Music baseer = new Music();
+        
+        baseer.name = "Baseer";
+        baseer.post = 500;
+        baseer.reels = 120;
+        baseer.tick = "No";
+        baseer.followers = 2;
+        baseer.following = 230;
+        baseer.category = "VJ";
+        baseer.gender = "M";
+        
+        raftar.printDetail();
+        rechal.printDetail();
+        nikhil.printDetail();
+        baseer.printDetail();
+    }
+}
