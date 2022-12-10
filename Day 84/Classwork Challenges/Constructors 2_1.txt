@@ -1,0 +1,56 @@
+import java.io.*;
+import java.util.*;
+
+class Influencer{
+    String name;
+    int posts;
+    int reels;
+    String blueTick;
+    int followers;
+    int following;
+    String category;
+    char gender;
+    
+    Influencer(String name, int posts, int reels, String blueTick, int followers, int following, String category, char gender){
+        this.name = name;
+        this.posts = posts;
+        this.reels = reels;
+        this.blueTick = blueTick;
+        this.followers = followers;
+        this.following = following;
+        this.category = category;
+        this.gender = gender;
+    }
+    
+    void printDetails(){
+        System.out.println(name);
+        System.out.println(posts);
+        System.out.println(reels);
+        System.out.println(blueTick);
+        System.out.println(followers);
+        System.out.println(following);
+        System.out.println(category);
+        System.out.println(gender);
+    }
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        
+        String object = sc.nextLine();
+        String name = sc.nextLine();
+        int posts = sc.nextInt();
+        int reels = sc.nextInt();;
+        String blueTick = sc.next();
+        int followers = sc.nextInt();;
+        int following = sc.nextInt();;
+        String category = sc.next();
+        char gender = sc.next().charAt(0);
+        // sc.nextLine();
+        Influencer singer = new Influencer(name, posts, reels, blueTick, followers, following, category, gender);
+        singer.printDetails();
+    }
+}

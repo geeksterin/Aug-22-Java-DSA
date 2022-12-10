@@ -1,0 +1,57 @@
+import java.util.*;
+
+class YoutubeVideo{
+    
+    String song;
+    String artist;
+    int views;
+    int likes;
+    int releasedYear;
+    int n;
+    ArrayList<String> comments;
+    
+    
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        YoutubeVideo youtubeVideo = new YoutubeVideo();
+        
+        Scanner sc = new Scanner(System.in);
+        
+        String song = sc.nextLine();
+        String artist = sc.nextLine();
+        int views = sc.nextInt();
+        int likes = sc.nextInt();
+        int releasedYear = sc.nextInt();
+        int n = sc.nextInt();
+        
+        sc.nextLine();
+        
+        ArrayList<String> comments = new ArrayList<>();
+        for(int i=0;i<n;i++)
+            comments.add(sc.nextLine());
+        
+        youtubeVideo.song = song;
+        youtubeVideo.artist = artist;
+        youtubeVideo.views = views;
+        youtubeVideo.likes = likes;
+        youtubeVideo.releasedYear = releasedYear;
+        youtubeVideo.n = n;
+        youtubeVideo.comments = comments;
+        
+        System.out.println(youtubeVideo.song);
+        System.out.println(youtubeVideo.artist);
+        System.out.println(youtubeVideo.views);
+        System.out.println(youtubeVideo.likes);
+        System.out.println(youtubeVideo.releasedYear);
+        System.out.println(youtubeVideo.n);
+        
+        for(int i=0;i<n;i++)
+            System.out.println(youtubeVideo.comments.get(i));
+
+        
+    }
+}

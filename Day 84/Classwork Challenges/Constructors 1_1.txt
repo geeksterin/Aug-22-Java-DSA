@@ -1,0 +1,43 @@
+import java.util.*;
+
+class Movies{
+    
+    String name;
+    int ratings;
+    int collections;
+    int profit;
+    String actor;
+    String actress;
+    
+    // Movies(){
+    //     System.out.print("Hi Akarsh");
+    // }
+    
+    Movies(int ratings, int collections, int profit, String actor, String actress){
+         this.ratings = ratings;
+         this.collections = collections;
+         this.profit = profit;
+         this.actor = actor;
+         this.actress = actress;
+        // System.out.print("Hello Akarsh");
+    }
+    
+    void printMovieDetails(){
+        System.out.println(ratings);
+        System.out.println(collections);
+        System.out.println(profit);
+        System.out.println(actor);
+        System.out.println(actress);
+    }
+    
+}
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Movies batman = new Movies(9,700000,9000,"Jack","Alia");
+        
+        batman.printMovieDetails();
+        
+    }
+}
