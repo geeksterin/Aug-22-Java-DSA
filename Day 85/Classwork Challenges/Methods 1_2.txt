@@ -1,0 +1,38 @@
+import java.io.*;
+import java.util.*;
+
+
+class Movies{ String name; int rating; int moneyCollection; int profit; String actor; String actress;
+
+Movies(String name, int rating, int moneyCollection, int profit, String actor, String actress){
+    this.name = name;
+    this.rating=rating;
+    this.moneyCollection = moneyCollection;
+    this.profit = profit;
+    this.actor = actor;
+    this.actress = actress;
+}
+
+void checkHit(int rating){
+    if(rating > 5){
+        System.out.println(true);
+        return;
+    }
+    System.out.println(false);
+}
+}
+
+public class Solution {
+
+public static void main(String[] args) {
+
+   Movies batman1 = new Movies("Batman 1", 8, 200000, 5000, "Rachel Gupta & Nikhil Chinapa", "Disha");
+    batman1.checkHit(8);
+
+    Movies batman2 = new Movies("Batman 2", 9, 500000, 8000, "Rannvijay Singha & Prince Narula", "Neha Dhupia");
+    batman2.checkHit(9);
+
+    Movies batman3 = new Movies("Batman 3", 4, 700000, 6000, "Rachel Gupta & Prince Narula", "Neha Dhupia");
+    batman3.checkHit(4);
+}
+}
