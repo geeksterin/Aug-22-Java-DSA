@@ -1,0 +1,67 @@
+import java.util.*;
+
+class YoutubeVideo{
+    
+    String song;
+    String artist;
+    int views;
+    int likes;
+    int releasedYear;
+    int n;
+    ArrayList<String> comments;
+    
+    void setProp(String song,String artist,int views,int likes,int releasedYear,int n,ArrayList<String> comments){
+                
+        this.song = song;
+        this.artist = artist;
+        this.views = views;
+        this.likes = likes;
+        this.releasedYear = releasedYear;
+        this.n = n;
+        this.comments = comments;
+    }
+    
+    void getProp(){
+        
+        System.out.println(this.song);
+        System.out.println(this.artist);
+        System.out.println(this.views);
+        System.out.println(this.likes);
+        System.out.println(this.releasedYear);
+        System.out.println(this.n);
+        
+        for(int i=0;i<n;i++)
+            System.out.println(this.comments.get(i));        
+    }
+    
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        String song = sc.nextLine();
+        String artist = sc.nextLine();
+        int views = sc.nextInt();
+        int likes = sc.nextInt();
+        int releasedYear = sc.nextInt();
+        int n = sc.nextInt();
+        
+        sc.nextLine();
+        
+        ArrayList<String> comments = new ArrayList<>();
+        for(int i=0;i<n;i++)
+            comments.add(sc.nextLine());
+        
+        YoutubeVideo youtubeVideo = new YoutubeVideo();
+        youtubeVideo.setProp(song,artist,views,likes,releasedYear,n,comments);
+
+        youtubeVideo.getProp();
+        
+
+
+        
+    }
+}

@@ -1,0 +1,34 @@
+import java.util.*;
+
+class Movies{
+    
+    String name;
+    int rating;
+    int collection;
+    int profit;
+    String leadActor;
+    String leadActress;
+    
+    Movies(int rating, int money){
+        System.out.println("Stored rating and money.");
+    }
+    
+    Movies(int rating, int money, int profit){
+        System.out.println("Stored rating, money, profit are given.");
+    }
+    
+    Movies(int rating, int money, int profit, String leadActor){
+        System.out.println("Stored rating, money, profit, lead actors are given.");
+    }
+    
+}
+
+public class Solution {
+    public static void main(String[] args) {
+        
+        Movies superman1 = new Movies(8,900000);
+        Movies superman2 = new Movies(8,900000,8000);
+        Movies superman3 = new Movies(8,900000,8000,"Ranveer Singh");
+        
+    }
+}

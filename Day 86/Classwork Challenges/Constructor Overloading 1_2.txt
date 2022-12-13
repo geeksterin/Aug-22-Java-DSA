@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static class Movies{
+        String name;
+        int rating;
+        int moneyCollection;
+        int profit;
+        String leadActor;
+        String leadActress;
+        
+        //Parameterized constructor -1
+        public Movies(int rating, int moneyCollection,int profit,String leadActor,String leadActress){
+            System.out.println("Lead actor has the main role.");
+        }
+        
+        //Parameterized constructor -2
+        public Movies(String leadActor,String leadActress,int rating, int moneyCollection,int profit){
+            System.out.println("Lead actress has the main role.");
+        }
+        
+    }
+
+    public static void main(String[] args) {
+    
+        Movies Superman1 = new Movies(8,900000,8000,"Rachel Gupta","Disha");
+        
+        Movies Superman2 = new Movies("Vaani Gupta","Prince Narula",8,900000,8000);
+    }
+}
