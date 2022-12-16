@@ -1,0 +1,57 @@
+import java.util.*;
+
+class movies{
+    public String name;
+    public int rating;
+    public int collection;
+    public int profit;
+    public String leadActor;
+    public String leadActress;
+    
+    private int views;
+    private int likes;
+    
+    movies(int rating, int collection, int profit, String leadActor, String leadActress){
+        this.rating = rating;
+        this.collection = collection;
+        this.profit = profit;
+        this.leadActor = leadActor;
+        this.leadActress = leadActress;
+    }
+    
+    public void setter(int views,int likes){
+        this.views = views;
+        this.likes = likes;
+    }
+    
+    public void displayViews(){
+        System.out.println(this.views);
+    }
+    
+    public void displayLikes(){
+        System.out.println(this.likes);
+    }
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+                movies Superman1 = new movies(8,90000,1000,"Rachel Gupta and Prince Narula","Aarushi");
+        
+        System.out.println(Superman1.rating);
+        System.out.println(Superman1.collection);
+        System.out.println(Superman1.profit);
+        System.out.println(Superman1.leadActor);
+        System.out.println(Superman1.leadActress);
+        
+        // Superman1.views = 10000;
+        // Superman1.likes = 500;
+        
+        Superman1.setter(10000,500);
+        
+        Superman1.displayViews();
+        Superman1.displayLikes();
+
+    }
+}
