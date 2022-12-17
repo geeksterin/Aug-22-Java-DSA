@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+class Movies{
+    int rating;
+    int moneyCollection;
+    int profit;
+    String leadActor;
+    String leadActress;
+    
+    public void displayRating(){
+        System.out.println(this.rating);
+        System.out.println("This is the function of movies class.");
+    }
+}
+
+class CommercialMovies extends Movies{
+    int views;
+    int likes;
+    
+    
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        CommercialMovies londonDream =new CommercialMovies();
+        londonDream.rating =10;
+        londonDream.moneyCollection=9000;
+        londonDream.profit=8850;
+        londonDream.leadActor="Rannvijay Singha, Rachel Gupta, Prince Narula";
+        londonDream.leadActress="Prajakta";
+        
+        System.out.println(londonDream.moneyCollection);
+        System.out.println(londonDream.profit);
+        System.out.println(londonDream.leadActor);
+        
+        londonDream.displayRating();
+    }
+}

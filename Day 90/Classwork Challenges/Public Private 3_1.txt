@@ -1,0 +1,81 @@
+import java.io.*;
+import java.util.*;
+
+class YoutubeVideos{
+    String song;
+    String artist;
+    int views;
+    int likes;
+    int releaseYear;
+    int n;
+    ArrayList<String>arr;
+    private int impressions;
+    
+    
+    
+    public void setProp(String song,String artist,int views,int likes,int releaseYear,int n,ArrayList<String>arr,int impressions){
+        this.song=song;
+        this.artist=artist;
+        this.views=views;
+        this.likes=likes;
+        this.releaseYear=releaseYear;
+        this.n=n;
+        this.arr=arr;
+        this.impressions=impressions;
+    }
+    
+    public void getImpressions(){
+        System.out.println(impressions);
+    }
+    
+    private int calculateRank(){
+        int sum=likes+impressions;
+        
+        if(sum>10000) return 1;
+        else if(sum>5000) return 2;
+        else if (sum>1000) return 3;
+        else if(likes==0) return 4;
+        
+        return -1;
+    }
+    
+    public void printRank(){
+        int ans=calculateRank();
+        
+        System.out.println(ans);
+    }
+}
+    
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scn=new Scanner(System.in);
+        
+        String song=scn.nextLine();
+        String artist=scn.nextLine();
+        int views=scn.nextInt();
+        int likes=scn.nextInt();
+        int releaseYear=scn.nextInt();
+        int n=scn.nextInt();
+        scn.nextLine();
+        ArrayList<String>arr=new ArrayList<>();
+        
+        
+        for(int i=0;i<n;i++){
+            String s=scn.nextLine();
+            arr.add(s);
+        }
+        
+        int impressions=scn.nextInt();
+        
+        YoutubeVideos obj=new YoutubeVideos();
+        obj.setProp(song,artist,views,likes,releaseYear,n,arr,impressions);
+        obj.getImpressions();
+        obj.printRank();
+        
+        
+        
+    }
+}
