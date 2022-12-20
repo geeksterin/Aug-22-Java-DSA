@@ -1,0 +1,58 @@
+import java.io.*;
+import java.util.*;
+
+class movies{
+    String name;
+    int rating;
+    int collection;
+    int profit;
+    String leadActor;
+    String leadActress;
+   
+    movies(String name,int rating, int collection, int profit, String leadActor, String leadActress){
+        this.name = name;
+        this.rating = rating;
+        this.collection = collection;
+        this.profit = profit;
+        this.leadActress = leadActress;
+        this.leadActor = leadActor;
+    }
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner scn=new Scanner(System.in);
+        int n=scn.nextInt();
+        scn.nextLine();
+        
+        movies arr[]=new movies[n];
+        
+        for(int i=0;i<n;i++){
+            String name=scn.nextLine();
+            int rating=scn.nextInt();
+            int collection=scn.nextInt();
+            int profit=scn.nextInt();
+            scn.nextLine();
+            String leadActor=scn.nextLine();
+            String leadActress=scn.nextLine();
+            
+            movies obj=new movies(name,rating,collection,profit,leadActor, leadActress);
+            
+            arr[i]=obj;
+        }
+        
+        for(int i=0;i<n;i++){
+            movies obj =arr[i];
+            
+            System.out.println(obj.name);
+            System.out.println(obj.rating);
+            System.out.println(obj.collection);
+            System.out.println(obj.profit);
+            System.out.println(obj.leadActor);
+            System.out.println(obj.leadActress);
+             
+        }
+    }
+}
