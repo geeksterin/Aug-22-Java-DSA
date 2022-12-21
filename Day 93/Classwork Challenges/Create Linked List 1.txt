@@ -1,0 +1,58 @@
+import java.util.*;
+
+class Node{
+    int val;
+    Node next;
+   
+    Node(int data){
+        this.val = data;
+        this.next = null;
+    }
+}
+ 
+class LinkedListImpl{
+    Node head;
+   
+    LinkedListImpl(){
+        this.head = null;
+    }
+   
+    void print(){
+        Node cur = this.head;
+        while(cur!=null){
+            System.out.print(cur.val+" ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+   
+    void insertAtEnd(int data){
+        Node cur = this.head;
+        Node newNode = new Node(data);
+        if(cur==null)
+            this.head = newNode;
+        else{
+            while(cur.next != null)
+                cur = cur.next;
+            cur.next = newNode;
+        }
+    }
+   
+}
+ 
+public class Main{
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+        
+        LinkedListImpl l = new LinkedListImpl();
+        
+        int n = sc.nextInt();
+        for(int i=0;i<n;i++){
+            int ele = sc.nextInt();
+            l.insertAtEnd(ele);
+        }
+        l.print();
+        
+    }
+}
