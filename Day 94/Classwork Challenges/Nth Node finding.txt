@@ -1,0 +1,17 @@
+public static int node_finding(SinglyLinkedListNode head, int n) {
+        int len=0;
+        SinglyLinkedListNode cur = head;
+        while(cur!=null){
+            len++;
+            cur = cur.next;
+        }
+        
+        cur = head;
+        int pos = 1;
+        while(pos != len-n+1){
+            cur = cur.next;
+            pos++;
+        }
+        return cur.data;
+
+    }

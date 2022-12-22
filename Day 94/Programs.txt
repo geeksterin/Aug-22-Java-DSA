@@ -1,0 +1,83 @@
+class Node{
+    int val;
+    Node next;
+    
+    Node(int data){
+        this.val = data;
+        this.next = null;
+    }
+}
+
+class LinkedListImpl{
+    Node head;
+    
+    LinkedListImpl(){
+        this.head = null;
+    }
+    
+    void print(){
+        Node cur = this.head;
+        while(cur!=null){
+            System.out.print(cur.val+" ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+    
+    void insertAtEnd(int num){
+        Node cur = this.head;
+        if(cur==null) //if LL is empty
+            this.head = new Node(num);
+        else{
+            while(cur.next!=null){
+                cur = cur.next;
+            }
+            cur.next = new Node(num);
+        }
+    }
+    
+    void printNthNode(int n){
+        Node cur = this.head;
+        int pos = 1;
+        while(pos != n){
+            cur = cur.next;
+            pos++;
+        }
+        System.out.println(cur.val+" ");
+    }
+    
+    int length(){
+        int len=0;
+        Node cur = this.head;
+        while(cur!=null){
+            len++;
+            cur = cur.next;
+        }
+        return len;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+        LinkedListImpl list = new LinkedListImpl();
+        list.head = new Node(1);
+        list.head.next = new Node(8);
+        list.head.next.next = new Node(9);
+        // System.out.println(list.head.val);
+                
+        int num = 4;
+        list.insertAtEnd(num);
+        
+        list.print();
+        
+        int n = 3;
+        
+        list.printNthNode(n);
+        
+        System.out.println(list.length());
+    }
+}
+
+
+
