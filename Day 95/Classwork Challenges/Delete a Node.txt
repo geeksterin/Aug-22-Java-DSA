@@ -1,0 +1,25 @@
+public static SinglyLinkedListNode deleteNode(SinglyLinkedListNode head, int position) {
+
+        SinglyLinkedListNode headCopy = head;
+        
+        if(position==0)
+            return head.next;
+        
+        if(head==null){
+            return head;
+        }
+        
+        int i=0;
+        while(i!=position-1){
+            head = head.next;
+            i++;
+        }
+               
+        if(head.next!=null)
+            head.next=head.next.next;
+        else
+            head.next = null;
+                
+        return headCopy;
+
+    }
