@@ -1,0 +1,54 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+class Account {
+    String name;
+    int balance;
+
+    public Account(String name, int balance) {
+        this.name = name;
+        this.balance = balance;
+    }
+}
+
+public class Main {
+
+      public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        HashMap<String, Account> accounts = new HashMap<>();
+
+        while (true) {
+            String line = scanner.nextLine();
+            
+            if(line.equals("0"))
+                break;
+            
+            String[] parts = line.split(" ");
+            String command = parts[0];
+
+            if (command.equals("CREATE")) {
+                String accountId = parts[1];
+                String accountName = parts[2];
+                Account account = new Account(accountName, 0);
+                accounts.put(accountId, account);
+            } 
+            else if (command.equals("DEPOSIT")) {
+                String accountId = parts[1];
+                int amount = Integer.parseInt(parts[2]);
+                Account account = accounts.get(accountId);
+                account.balance += amount;
+            } 
+            else if (command.equals("WITHDRAW")) {
+                String accountId = parts[1];
+                int amount = Integer.parseInt(parts[2]);
+                Account account = accounts.get(accountId);
+                account.balance -= amount;
+            } 
+            else if (command.equals("BALANCE")) {
+                String accountId = parts[1];
+                Account account = accounts.get(accountId);
+                System.out.println(account.name + " " + account.balance);
+            }
+        }
+    }
+}
