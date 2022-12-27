@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        HashSet<String> hs = new HashSet<String>();
+        
+        hs.add("Akarsh");
+        hs.add("Aishwarya");
+        hs.add("Aastha");
+        hs.add("Abhay");
+        
+        hs.remove("Aishwarya");
+        
+        System.out.println(hs.contains("Aishwarya"));
+        System.out.println(hs.contains("Abhay"));
+        System.out.println(hs.size());
+
+        for (String s : hs)
+              System.out.print(s+" ");
+        System.out.println();
+    }
+}

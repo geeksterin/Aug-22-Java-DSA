@@ -1,0 +1,59 @@
+import java.util.*;
+
+class Account{
+    int amount;
+    String name;
+    
+    Account(String name, int amount){
+        this.name = name;
+        this.amount = amount;
+    }
+}
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        
+        //key->id, value-> Account object
+        HashMap<String,Account> accounts = new HashMap<>();
+        
+        while(true){
+            String command = sc.next();
+            
+            if(command.equals("0"))
+                break;
+            
+            if(command.equals("CREATE")){
+                String accountId = sc.next();
+                String accountName = sc.next();
+                Account account = new Account(accountName,0);
+                accounts.put(accountId,account);
+            }
+            
+            else if(command.equals("DEPOSIT")){
+                String accountId = sc.next();
+                int amount = Integer.parseInt(sc.next());
+                
+                Account account = accounts.get(accountId);
+                account.amount = account.amount + amount;
+            }
+            
+            else if(command.equals("WITHDRAW")){
+                String accountId = sc.next();
+                int amount = Integer.parseInt(sc.next());
+                
+                Account account = accounts.get(accountId);
+                account.amount = account.amount - amount;
+            }
+            
+            else if(command.equals("BALANCE")){
+                String accountId = sc.next();
+                
+                Account account = accounts.get(accountId);
+                System.out.println(account.name+" "+account.amount);
+            }
+        }
+    }
+}
